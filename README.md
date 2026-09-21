@@ -2,9 +2,9 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](../../pulls)
 <br />
 <p align="center">
-  <h1 align="center">Weakly Supervised Semantic Segmentation in the Deep Learning Era</h1>
+  <h1 align="center">A Unified Survey of Weakly Supervised Semantic Segmentation</h1>
   <p align="center">
-    <b>A Comprehensive Survey and Taxonomy</b>
+    <b>Supervision Forms, Methods, and Applications</b>
     <br />
     <b>Submitted to IEEE TPAMI</b>
     <br />
@@ -12,11 +12,11 @@
     ·
     <strong>Haoying Zeng</strong>
     ·
-    <strong>Haopeng Zhang</strong>
-    ·
     <strong>Zhiguo Jiang</strong>
     ·
     <strong>Gemine Vivone</strong>
+    ·
+    <strong>Haopeng Zhang</strong>
   </p>
   <p align="center">
     <a href='./'><img src='https://img.shields.io/badge/Survey-Project-blue?style=flat' alt='Project'></a>
@@ -34,9 +34,9 @@
 
 This repository tracks and benchmarks weakly supervised semantic segmentation (WSSS) methods to supplement our survey:
 
-> **Weakly Supervised Semantic Segmentation in the Deep Learning Era: A Comprehensive Survey and Taxonomy**
+> **A Unified Survey of Weakly Supervised Semantic Segmentation: Supervision Forms, Methods, and Applications**
 >
-> Yifan Zhang, Haoying Zeng, Haopeng Zhang, Zhiguo Jiang, Gemine Vivone
+> Yifan Zhang, Haoying Zeng, Zhiguo Jiang, Gemine Vivone, Haopeng Zhang
 >
 > *Submitted to IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).*
 
@@ -75,8 +75,8 @@ If you find our survey helpful, please consider citing (status: **submitted to I
 
 ```bibtex
 @article{zhang2026wssssurvey,
-  title   = {Weakly Supervised Semantic Segmentation in the Deep Learning Era: A Comprehensive Survey and Taxonomy},
-  author  = {Zhang, Yifan and Zeng, Haoying and Zhang, Haopeng and Jiang, Zhiguo and Vivone, Gemine},
+  title   = {A Unified Survey of Weakly Supervised Semantic Segmentation: Supervision Forms, Methods, and Applications},
+  author  = {Zhang, Yifan and Zeng, Haoying and Jiang, Zhiguo and Vivone, Gemine and Zhang, Haopeng},
   year    = {2026}
 }
 ```
