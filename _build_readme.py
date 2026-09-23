@@ -82,6 +82,41 @@ def parse_bib(text: str) -> dict:
 
 bib = parse_bib(bib_text)
 
+
+def _norm_title(t: str) -> str:
+    t = (t or "").lower()
+    t = re.sub(r"[^a-z0-9]+", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+# Phone-checked year / venue / name / code overlay (see _paper_overrides.json)
+_ov_path = OUT / "_paper_overrides.json"
+OVERRIDES: dict[str, dict] = {}
+if _ov_path.exists():
+    for row in json.loads(_ov_path.read_text(encoding="utf-8")):
+        nt = _norm_title(row.get("title") or "")
+        if nt:
+            OVERRIDES[nt] = row
+    print(f"loaded {len(OVERRIDES)} paper overrides from {_ov_path.name}")
+
+
+def apply_override(e: dict, k: str) -> tuple[str, str, str, str, str]:
+    """Return year, venue, name, code, link after overlaying the checked spreadsheet."""
+    title = e.get("title") or k
+    ov = OVERRIDES.get(_norm_title(title), {})
+    year = str(ov["year"]) if ov.get("year") else (e.get("year") or "-")
+    venue = short_venue(ov.get("venue") or e.get("venue") or "")
+    if ov.get("name"):
+        name = ov["name"]
+    else:
+        name = name_map.get(k) or acronym_from_title(title) or author_short(e.get("author") or "") or k
+    if ov:
+        code = ov.get("code") or ""
+    else:
+        code = KNOWN_CODE.get(k, "")
+    link = ov.get("link") or paper_link(e)
+    return year, venue, name, code, link
+
 # Manual DOI / open-access overlays for entries missing them in the bib
 KNOWN_DOI = {
     "CAM": "10.1109/CVPR.2016.319",
@@ -273,16 +308,16 @@ for k in cited:
 # Order matters: more specific patterns must come before substrings
 # (e.g. CVPR before "Pattern Recognition", else CVPR→PR).
 VENUE_MAP = [
-    (r"Pattern Analysis and Machine Intelligence", "TPAMI"),
-    (r"Transactions on Image Processing", "TIP"),
-    (r"Transactions on Medical Imaging", "TMI"),
+    (r"Pattern Analysis and Machine Intelligence|Trans\. Pattern Anal\. Mach\. Intell", "TPAMI"),
+    (r"Transactions on Image Processing|Trans\. Image Process", "TIP"),
+    (r"Transactions on Medical Imaging|Trans\. Med\. Imag", "TMI"),
     (r"Geoscience and Remote Sensing", "TGRS"),
     (r"Circuits and Systems for Video Technology", "TCSVT"),
     (r"Transactions on Multimedia", "TMM"),
     (r"ISPRS Journal", "ISPRS"),
     (r"International Journal of Computer Vision", "IJCV"),
-    (r"Computer Vision and Pattern Recognition", "CVPR"),
-    (r"International Conference on Computer Vision", "ICCV"),
+    (r"Computer Vision and Pattern Recognition|Conf\. Comput\. Vis\. Pattern Recognit|\bCVPR\b", "CVPR"),
+    (r"International Conference on Computer Vision|Proc\. Int\. Conf\. Comput\. Vis|\bICCV\b", "ICCV"),
     (r"Computer Vision -- ECCV", "ECCV"),
     (r"European Conference on Computer Vision", "ECCV"),
     (r"Neural Information Processing Systems", "NeurIPS"),
@@ -396,16 +431,23 @@ for k in cited:
 for cat in groups:
     def sort_key(k: str, _cat=cat):
         e = bib.get(k, {})
+        year, _venue, name, _code, _link = apply_override(e, k)
         try:
-            y = int(e.get("year") or 0)
+            y = int(year)
         except ValueError:
             y = 0
-        return (y, name_map.get(k, k).lower())
+        return (y, name.lower())
 
     groups[cat] = sorted(groups[cat], key=sort_key)
 
 n_method = sum(len(v) for v in groups.values())
-n_code = sum(1 for ks in groups.values() for k in ks if KNOWN_CODE.get(k))
+
+def _row_has_code(k: str) -> bool:
+    e = bib.get(k, {})
+    _, _, _, code, _ = apply_override(e, k)
+    return bool(code)
+
+n_code = sum(1 for ks in groups.values() for k in ks if _row_has_code(k))
 print(f"method/app papers={n_method} with_code={n_code}")
 
 # Table-2 datasets (from main.tex tab:datasets_summary)
@@ -442,11 +484,11 @@ A("    <strong>Yifan Zhang</strong>")
 A("    ·")
 A("    <strong>Haoying Zeng</strong>")
 A("    ·")
-A("    <strong>Haopeng Zhang</strong>")
-A("    ·")
 A("    <strong>Zhiguo Jiang</strong>")
 A("    ·")
 A("    <strong>Gemine Vivone</strong>")
+A("    ·")
+A("    <strong>Haopeng Zhang</strong>")
 A("  </p>")
 A('  <p align="center">')
 A("    <a href='./'><img src='https://img.shields.io/badge/Survey-Project-blue?style=flat' alt='Project'></a>")
@@ -466,7 +508,7 @@ A("This repository tracks and benchmarks weakly supervised semantic segmentation
 A("")
 A("> **A Unified Survey of Weakly Supervised Semantic Segmentation: Supervision Forms, Methods, and Applications**")
 A(">")
-A("> Yifan Zhang, Haoying Zeng, Haopeng Zhang, Zhiguo Jiang, Gemine Vivone")
+A("> Yifan Zhang, Haoying Zeng, Zhiguo Jiang, Gemine Vivone, Haopeng Zhang")
 A(">")
 A("> *Submitted to IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).*")
 A("")
@@ -552,17 +594,13 @@ def emit_table(cat: str, keys: list[str]):
         if not e:
             A(f"| - | - | `{k}` | *Missing in references.bib* | N/A |")
             continue
-        year = e.get("year") or "-"
-        venue = short_venue(e.get("venue") or "")
-        name = name_map.get(k) or acronym_from_title(e.get("title") or "") or author_short(e.get("author") or "") or k
+        year, venue, name, code, link = apply_override(e, k)
         name = md_escape(name)
         title = md_escape(e.get("title") or k)
-        link = paper_link(e)
         if link:
             title_cell = f"[**{title}**]({link})"
         else:
             title_cell = f"**{title}**"
-        code = KNOWN_CODE.get(k, "")
         code_cell = f"[Code]({code})" if code else "N/A"
         A(f"| {year} | {venue} | {name} | {title_cell} | {code_cell} |")
     A("")
@@ -579,11 +617,11 @@ def merge_keys(prefix: str) -> list:
                     keys.append(k)
     def sort_key(k: str):
         e = bib.get(k, {})
+        year, _venue, name, _code, _link = apply_override(e, k)
         try:
-            y = int(e.get("year") or 0)
+            y = int(year)
         except ValueError:
             y = 0
-        name = name_map.get(k) or acronym_from_title(e.get("title") or "") or author_short(e.get("author") or "") or k
         return (y, name.lower())
     return sorted(keys, key=sort_key)
 
@@ -605,14 +643,10 @@ def emit_merged(title: str, blurb: str, prefix: str):
         if not e:
             A(f"| - | - | `{k}` | *Missing in references.bib* | N/A |")
             continue
-        year = e.get("year") or "-"
-        venue = short_venue(e.get("venue") or "")
-        name = name_map.get(k) or acronym_from_title(e.get("title") or "") or author_short(e.get("author") or "") or k
+        year, venue, name, code, link = apply_override(e, k)
         name = md_escape(name)
         title_ = md_escape(e.get("title") or k)
-        link = paper_link(e)
         title_cell = f"[**{title_}**]({link})" if link else f"**{title_}**"
-        code = KNOWN_CODE.get(k, "")
         code_cell = f"[Code]({code})" if code else "N/A"
         A(f"| {year} | {venue} | {name} | {title_cell} | {code_cell} |")
     A("")

@@ -1,0 +1,1856 @@
+[
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2014,
+    "venue": "TMM",
+    "name": null,
+    "title": "Representative Discovery of Structure Cues for Weakly-Supervised Image Segmentation",
+    "link": "https://doi.org/10.1109/TMM.2013.2293424",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2017,
+    "venue": "TPAMI",
+    "name": "STC",
+    "title": "STC: A Simple to Complex Framework for Weakly-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TPAMI.2016.2636150",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2018,
+    "venue": "CVPR",
+    "name": "AffinityNet",
+    "title": "Learning Pixel-Level Semantic Affinity With Image-Level Supervision for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR.2018.00523",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2018,
+    "venue": "CVPR",
+    "name": "DSRG",
+    "title": "Weakly-Supervised Semantic Segmentation Network With Deep Seeded Region Growing",
+    "link": "https://doi.org/10.1109/CVPR.2018.00733",
+    "code": "https://github.com/speedinghzl/DSRG"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2018,
+    "venue": "TPAMI",
+    "name": null,
+    "title": "Incorporating Network Built-in Priors in Weakly-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TPAMI.2017.2713785",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2019,
+    "venue": "TMM",
+    "name": "DSNA",
+    "title": "Decoupled Spatial Neural Attention for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TMM.2019.2914870",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2019,
+    "venue": "TIP",
+    "name": "Tag2Mask",
+    "title": "Learning to Exploit the Prior Network Knowledge for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TIP.2019.2901393",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2019,
+    "venue": "ICCV",
+    "name": "SSNet",
+    "title": "Joint Learning of Saliency Detection and Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/ICCV.2019.00732",
+    "code": "https://github.com/zengxianyu/jsws"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2020,
+    "venue": "CVPR",
+    "name": "SC-CAM",
+    "title": "Weakly-Supervised Semantic Segmentation via Sub-Category Exploration",
+    "link": "https://doi.org/10.1109/CVPR42600.2020.00901",
+    "code": "https://github.com/Juliachang/SC-CAM"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2020,
+    "venue": "AAAI",
+    "name": "CIAN",
+    "title": "CIAN: Cross-Image Affinity Net for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1609/aaai.v34i07.6705",
+    "code": "https://github.com/js-fan/CIAN"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2020,
+    "venue": "NeurIPS",
+    "name": "CONTA",
+    "title": "Causal Intervention for Weakly-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.48550/arXiv.2009.12547",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2020,
+    "venue": "TCSVT",
+    "name": null,
+    "title": "Weakly Supervised Semantic Segmentation by a Class-Level Multiple Group Cosegmentation and Foreground Fusion Strategy",
+    "link": "https://doi.org/10.1109/TCSVT.2019.2962073",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2021,
+    "venue": "TMM",
+    "name": "SAL",
+    "title": "SAL: Selection and Attention Losses for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TMM.2020.2991592",
+    "code": "https://github.com/zmbhou/SALTMM"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2020,
+    "venue": "CVPR",
+    "name": "SEAM",
+    "title": "Self-Supervised Equivariant Attention Mechanism for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR42600.2020.01229",
+    "code": "https://github.com/YudeWang/SEAM"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2021,
+    "venue": "TPAMI",
+    "name": "ADL",
+    "title": "Attention-Based Dropout Layer for Weakly Supervised Single Object Localization and Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TPAMI.2020.2999099",
+    "code": "https://github.com/junsukchoe/ADL"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2021,
+    "venue": "ICCV",
+    "name": "AuxSegNet",
+    "title": "Leveraging Auxiliary Tasks with Affinity Learning for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/ICCV48922.2021.00690",
+    "code": "https://github.com/xulianuwa/AuxSegNet"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2021,
+    "venue": "ICCV",
+    "name": "CDA",
+    "title": "Context Decoupling Augmentation for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/ICCV48922.2021.00692",
+    "code": "https://github.com/suyukun666/CDA"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2021,
+    "venue": "ICCV",
+    "name": "CGNet",
+    "title": "Unlocking the Potential of Ordinary Classifier: Class-Specific Adversarial Erasing Framework for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/ICCV48922.2021.00691",
+    "code": "https://github.com/KAIST-vilab/OC-CSE"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2021,
+    "venue": "ICCV",
+    "name": "CPN",
+    "title": "Complementary Patch for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/ICCV48922.2021.00715",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2021,
+    "venue": "ICCV",
+    "name": "ECS-Net",
+    "title": "ECS-Net: Improving Weakly Supervised Semantic Segmentation by Using Connections Between Class Activation Maps",
+    "link": "https://doi.org/10.1109/ICCV48922.2021.00719",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2021,
+    "venue": "CVPR",
+    "name": "EDAM",
+    "title": "Embedded Discriminative Attention Mechanism for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR46437.2021.01649",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2021,
+    "venue": "CVPR",
+    "name": "EPS",
+    "title": "Railroad Is Not a Train: Saliency as Pseudo-Pixel Supervision for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR46437.2021.00545",
+    "code": "https://github.com/halbielee/EPS"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2021,
+    "venue": "AAAI",
+    "name": "Group-WSSS",
+    "title": "Group-Wise Semantic Mining for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1609/aaai.v35i3.16294",
+    "code": "https://github.com/Lixy1997/Group-WSSS"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2021,
+    "venue": "JSTARS",
+    "name": null,
+    "title": "On the Effectiveness of Weakly Supervised Semantic Segmentation for Building Extraction From High-Resolution Remote Sensing Imagery",
+    "link": "https://doi.org/10.1109/JSTARS.2021.3063788",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2021,
+    "venue": "CVPR",
+    "name": "NSROM",
+    "title": "Non-Salient Region Object Mining for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR46437.2021.00265",
+    "code": "https://github.com/NUST-Machine-Intelligence-Laboratory/nsrom"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2022,
+    "venue": "CVPR",
+    "name": "AFA",
+    "title": "Learning Affinity From Attention: End-to-End Weakly-Supervised Semantic Segmentation With Transformers",
+    "link": "https://doi.org/10.1109/CVPR52688.2022.01634",
+    "code": "https://github.com/rulixiang/afa"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2022,
+    "venue": "AAAI",
+    "name": "AMR",
+    "title": "Activation Modulation and Recalibration Scheme for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1609/aaai.v36i2.20108",
+    "code": "https://github.com/jieqin-ai/AMR"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2022,
+    "venue": "CVPR",
+    "name": "C-CAM",
+    "title": "C-CAM: Causal CAM for Weakly Supervised Semantic Segmentation on Medical Image",
+    "link": "https://doi.org/10.1109/CVPR52688.2022.01138",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2022,
+    "venue": "CVPR",
+    "name": "CLIMS",
+    "title": "CLIMS: Cross Language Image Matching for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52688.2022.00444",
+    "code": "https://github.com/CVI-SZU/CLIMS"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2022,
+    "venue": "CVPR",
+    "name": null,
+    "title": "Weakly Supervised Semantic Segmentation by Pixel-to-Prototype Contrast",
+    "link": "https://doi.org/10.1109/CVPR52688.2022.00428",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2022,
+    "venue": "JSTARS",
+    "name": null,
+    "title": "Improved Pseudomasks Generation for Weakly Supervised Building Extraction From High-Resolution Remote Sensing Imagery",
+    "link": "https://doi.org/10.1109/JSTARS.2022.3144176",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2022,
+    "venue": "PR",
+    "name": null,
+    "title": "Exploiting Shape Cues for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1016/j.patcog.2022.108953",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2022,
+    "venue": "CVPR",
+    "name": "L2G",
+    "title": "L2G: A Simple Local-to-Global Knowledge Transfer Framework for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52688.2022.01638",
+    "code": "https://github.com/PengtaoJiang/L2G"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2022,
+    "venue": "CVPR",
+    "name": "MCTformer",
+    "title": "Multi-Class Token Transformer for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52688.2022.00427",
+    "code": "https://github.com/xulianuwa/MCTformer"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2022,
+    "venue": "TPAMI",
+    "name": "OAA",
+    "title": "Online Attention Accumulation for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TPAMI.2021.3092573",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2022,
+    "venue": "CVPR",
+    "name": "ReCAM",
+    "title": "Class Re-Activation Maps for Weakly-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52688.2022.00104",
+    "code": "https://github.com/zhaozhengChen/ReCAM"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2022,
+    "venue": "ACM MM",
+    "name": "RPIM",
+    "title": "Region-Based Pixels Integration Mechanism for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1145/3503161.3548141",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2022,
+    "venue": "CVPR",
+    "name": "SANCE",
+    "title": "Towards Noiseless Object Contours for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52688.2022.01635",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2022,
+    "venue": "CVPR",
+    "name": "SIPE",
+    "title": "Self-Supervised Image-Specific Prototype Exploration for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52688.2022.00425",
+    "code": "https://github.com/chenqi1126/SIPE"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2022,
+    "venue": "CVPR",
+    "name": "W-OoD",
+    "title": "Weakly Supervised Semantic Segmentation Using Out-of-Distribution Data",
+    "link": "https://doi.org/10.1109/CVPR52688.2022.01639",
+    "code": "https://github.com/naver-ai/w-ood"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2022,
+    "venue": "ACM MM",
+    "name": "BDM + GOP",
+    "title": "Boat in the Sky: Background Decoupling and Object-Aware Pooling for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1145/3503161.3548201",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2022,
+    "venue": "ACM MM",
+    "name": "HGNN",
+    "title": "Multi-Granular Semantic Mining for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1145/3503161.3547919",
+    "code": "https://github.com/maeve07/HGNN"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2022,
+    "venue": "TIP",
+    "name": "Group-WSSS",
+    "title": "Group-Wise Learning for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TIP.2021.3132834",
+    "code": "https://github.com/Helens1997/Group-WSSS"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2023,
+    "venue": "CVPR",
+    "name": "BECO",
+    "title": "Boundary-Enhanced Co-Training for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52729.2023.01875",
+    "code": "https://github.com/ShenghaiRong/BECO"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2023,
+    "venue": "IJCV",
+    "name": "CDL",
+    "title": "Credible Dual-Expert Learning for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1007/s11263-023-01796-9",
+    "code": "https://github.com/zbf1991/CDL"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2023,
+    "venue": "CVPR",
+    "name": "CLIP-ES",
+    "title": "CLIP Is Also an Efficient Segmenter: A Text-Driven Approach for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52729.2023.01469",
+    "code": "https://github.com/linyq2117/CLIP-ES"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2023,
+    "venue": "TPAMI",
+    "name": "EPS++",
+    "title": "Saliency as Pseudo-Pixel Supervision for Weakly and Semi-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TPAMI.2023.3273592",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2023,
+    "venue": "ICCV",
+    "name": "FPR",
+    "title": "FPR: False Positive Rectification for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/ICCV51070.2023.00108",
+    "code": "https://github.com/mt-cly/FPR"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2023,
+    "venue": "AAAI",
+    "name": null,
+    "title": "Semantic-Aware Superpixel for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1609/aaai.v37i1.25196",
+    "code": "https://github.com/st17kim/semantic-aware-superpixel"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2023,
+    "venue": "TIP",
+    "name": "MDBA",
+    "title": "Multi-Granularity Denoising and Bidirectional Alignment for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TIP.2023.3275913",
+    "code": "https://github.com/NUST-Machine-Intelligence-Laboratory/MDBA"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2023,
+    "venue": "CVPR",
+    "name": "OCR",
+    "title": "Out-of-Candidate Rectification for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52729.2023.02267",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2023,
+    "venue": "TGRS",
+    "name": "OME",
+    "title": "One Model Is Enough: Toward Multiclass Weakly Supervised Remote Sensing Image Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TGRS.2023.3290242",
+    "code": "https://github.com/NJU-LHRS/OME"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2023,
+    "venue": "AAAI",
+    "name": "PistoSeg",
+    "title": "Weakly-Supervised Semantic Segmentation for Histopathology Images Based on Dataset Synthesis and Feature Consistency Constraint",
+    "link": "https://doi.org/10.1609/aaai.v37i1.25136",
+    "code": "https://github.com/Vison307/PistoSeg"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2023,
+    "venue": "ACM MM",
+    "name": "QA-CLIMS",
+    "title": "QA-CLIMS: Question-Answer Cross Language Image Matching for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1145/3581783.3612148",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2023,
+    "venue": "TMM",
+    "name": "RPNet",
+    "title": "Cross-Image Region Mining With Region Prototypical Network for Weakly Supervised Segmentation",
+    "link": "https://doi.org/10.1109/TMM.2021.3139459",
+    "code": "https://github.com/liuweide01/RPNet-Weakly-Supervised-Segmentation"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2023,
+    "venue": "TPAMI",
+    "name": "SoS",
+    "title": "Salvage of Supervision in Weakly Supervised Object Detection and Segmentation",
+    "link": "https://doi.org/10.1109/TPAMI.2023.3243054",
+    "code": "https://github.com/suilin0432/SoS-WSOD"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2023,
+    "venue": "TCSVT",
+    "name": "MulPro",
+    "title": "Weakly Supervised 3D Point Cloud Segmentation via Multi-Prototype Learning",
+    "link": "https://doi.org/10.1109/TCSVT.2023.3281151",
+    "code": "https://github.com/Gorilla-Lab-SCUT/MulPro"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2023,
+    "venue": "CVPR",
+    "name": "ToCo",
+    "title": "Token Contrast for Weakly-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52729.2023.00302",
+    "code": "https://github.com/rulixiang/ToCo"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2023,
+    "venue": "AAAI",
+    "name": "SCD",
+    "title": "Self Correspondence Distillation for End-to-End Weakly-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1609/aaai.v37i3.25408",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2023,
+    "venue": "ICCV",
+    "name": "USAGE",
+    "title": "USAGE: A Unified Seed Area Generation Paradigm for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/ICCV51070.2023.00064",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2023,
+    "venue": "PR",
+    "name": "eX-ViT",
+    "title": "eX-ViT: A Novel Explainable Vision Transformer for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1016/j.patcog.2023.109666",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "TPAMI",
+    "name": "AdvCAM",
+    "title": "Anti-Adversarially Manipulated Attributions for Weakly Supervised Semantic Segmentation and Object Localization",
+    "link": "https://doi.org/10.1109/TPAMI.2022.3166916",
+    "code": "https://github.com/jbeomlee93/AdvCAM"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "IJCV",
+    "name": "BAS",
+    "title": "Background Activation Suppression for Weakly Supervised Object Localization and Semantic Segmentation",
+    "link": "https://doi.org/10.1007/s11263-023-01919-2",
+    "code": "https://github.com/wpy1999/BAS-Extension"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "AAAI",
+    "name": "CARB",
+    "title": "Weakly Supervised Semantic Segmentation for Driving Scenes",
+    "link": "https://doi.org/10.1609/aaai.v38i3.28053",
+    "code": "https://github.com/k0u-id/CARB"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "TCSVT",
+    "name": "CB-SCTC",
+    "title": "Cross-Block Sparse Class Token Contrast for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TCSVT.2024.3442310",
+    "code": "https://github.com/Jingfeng-Tang/CB-SCTC"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "TGRS",
+    "name": "CocoaNet",
+    "title": "Weakly Supervised Semantic Segmentation With Consistency-Constrained Multiclass Attention for Remote Sensing Scenes",
+    "link": "https://doi.org/10.1109/TGRS.2024.3392737",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "CVPR",
+    "name": "CPAL",
+    "title": "Hunting Attributes: Context Prototype-Aware Learning for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52733.2024.00320",
+    "code": "https://github.com/Barrett-python/CPAL"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "TPAMI",
+    "name": null,
+    "title": "Regularized Loss With Hyperparameter Estimation for Weakly Supervised Single Class Segmentation",
+    "link": "https://doi.org/10.1109/TPAMI.2024.3350450",
+    "code": "https://github.com/morduspordus/SingleClassRL"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "TGRS",
+    "name": "CTFA",
+    "title": "Contrastive Tokens and Label Activation for Remote Sensing Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TGRS.2024.3385747",
+    "code": "https://github.com/ZaiyiHu/CTFA"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "CVPR",
+    "name": "CTI",
+    "title": "Class Tokens Infusion for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52733.2024.00345",
+    "code": "https://github.com/yoon307/CTI"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "ECCV",
+    "name": "DIAL",
+    "title": "DIAL: Dense Image-Text ALignment for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1007/978-3-031-72890-7_15",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "ACM MM",
+    "name": "ECA",
+    "title": "DINO Is Also a Semantic Guider: Exploiting Class-Aware Affinity for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1145/3664647.3681710",
+    "code": "https://github.com/Wu0409/ECA"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "TCSVT",
+    "name": "FBR",
+    "title": "Fine-Grained Background Representation for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TCSVT.2024.3419106",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "TGRS",
+    "name": "FlipCAM",
+    "title": "FlipCAM: A Feature-Level Flipping Augmentation Method for Weakly Supervised Building Extraction From High-Resolution Remote Sensing Imagery",
+    "link": "https://doi.org/10.1109/TGRS.2024.3360276",
+    "code": "https://github.com/NJU-LHRS/FlipCAM-master"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "ECCV",
+    "name": "KTSE",
+    "title": "Knowledge Transfer With Simulated Inter-Image Erasing for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1007/978-3-031-72946-1_25",
+    "code": "https://github.com/NUST-Machine-Intelligence-Laboratory/KTSE"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "TPAMI",
+    "name": "MCTformer",
+    "title": "MCTformer+: Multi-Class Token Transformer for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TPAMI.2024.3404422",
+    "code": "https://github.com/xulianuwa/MCTformer"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "CVPR",
+    "name": "PSDPM",
+    "title": "PSDPM: Prototype-Based Secondary Discriminative Pixels Mining for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52733.2024.00330",
+    "code": "https://github.com/xinqiaozhao/PSDPM"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "TCSVT",
+    "name": "RTC",
+    "title": "Boosting Weakly-Supervised Image Segmentation via Representation, Transform, and Compensator",
+    "link": "https://doi.org/10.1109/TCSVT.2024.3413778",
+    "code": "https://github.com/ChunyanWang1/RTC"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "CVPR",
+    "name": "S2C",
+    "title": "From SAM to CAMs: Exploring Segment Anything Model for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52733.2024.01844",
+    "code": "https://github.com/sangrockEG/S2C"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "CVPR",
+    "name": "SeCo",
+    "title": "Separate and Conquer: Decoupling Co-Occurrence via Decomposition and Representation for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52733.2024.00346",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "AAAI",
+    "name": "SFC",
+    "title": "SFC: Shared Feature Calibration in Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1609/aaai.v38i7.28584",
+    "code": "https://github.com/Barrett-python/SFC"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "TIP",
+    "name": "SSC",
+    "title": "Spatial Structure Constraints for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TIP.2024.3359041",
+    "code": "https://github.com/NUST-Machine-Intelligence-Laboratory/SSC"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "TPAMI",
+    "name": "MCIS",
+    "title": "Looking Beyond Single Images for Weakly Supervised Semantic Segmentation Learning",
+    "link": "https://doi.org/10.1109/TPAMI.2022.3168530",
+    "code": "https://github.com/GuoleiSun/MCIS_wsss"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "TMM",
+    "name": "WaveCAM",
+    "title": "Wave-Like Class Activation Map With Representation Fusion for Weakly-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TMM.2023.3267891",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2024,
+    "venue": "CVPR",
+    "name": "WeCLIP",
+    "title": "Frozen CLIP: A Strong Backbone for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52733.2024.00364",
+    "code": "https://github.com/zbf1991/WeCLIP"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "TIP",
+    "name": "ASDT",
+    "title": "Weakly Supervised Semantic Segmentation via Alternate Self-Dual Teaching",
+    "link": "https://doi.org/10.1109/TIP.2023.3343112",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "TNNLS",
+    "name": "BMP-WSSS",
+    "title": "Branches Mutual Promotion for End-to-End Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TNNLS.2024.3467132",
+    "code": "https://github.com/zh460045050/BMP-WSSS"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "JSTARS",
+    "name": "Water-matching CAM",
+    "title": "Water-Matching CAM: A Novel Class Activation Map for Weakly-Supervised Semantic Segmentation of Water in SAR Images",
+    "link": "https://doi.org/10.1109/JSTARS.2024.3520361",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "IJCV",
+    "name": "CLIMS++",
+    "title": "CLIMS++: Cross Language Image Matching With Automatic Context Discovery for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1007/s11263-025-02442-2",
+    "code": "https://github.com/CVI-SZU/CLIMS"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "ECCV",
+    "name": "DHR",
+    "title": "DHR: Dual Features-Driven Hierarchical Rebalancing in Inter- and Intra-Class Regions for Weakly-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1007/978-3-031-73004-7_14",
+    "code": "https://github.com/shjo-april/DHR"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "CVPR",
+    "name": "ExCEL",
+    "title": "Exploring CLIP's Dense Knowledge for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52734.2025.01883",
+    "code": "https://github.com/zwyang6/ExCEL"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "CVPR",
+    "name": "FFR",
+    "title": "FFR: Frequency Feature Rectification for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52734.2025.02817",
+    "code": "https://github.com/yay97/FFR"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "TMI",
+    "name": "HisynSeg",
+    "title": "HisynSeg: Weakly-Supervised Histopathological Image Segmentation via Image-Mixing Synthesis and Consistency Regularization",
+    "link": "https://doi.org/10.1109/TMI.2024.3520129",
+    "code": "https://github.com/Vison307/HisynSeg"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "TGRS",
+    "name": "ISANet",
+    "title": "Shape Activated CAM Learning for Weakly Supervised Remote Sensing Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TGRS.2025.3578466",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "AAAI",
+    "name": "MoRe",
+    "title": "MoRe: Class Patch Attention Needs Regularization for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1609/aaai.v39i9.33018",
+    "code": "https://github.com/zwyang6/MoRe"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "ICCV",
+    "name": "OTPL",
+    "title": "Class Token as Proxy: Optimal Transport-Assisted Proxy Learning for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/ICCV51701.2025.02010",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "CVPR",
+    "name": "PCRE",
+    "title": "Weakly Supervised Semantic Segmentation via Progressive Confidence Region Expansion",
+    "link": "https://doi.org/10.1109/CVPR52734.2025.00918",
+    "code": "https://github.com/xxf011/WSSS-PCRE"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "CVPR",
+    "name": "POT",
+    "title": "POT: Prototypical Optimal Transport for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52734.2025.01402",
+    "code": "https://github.com/jianwang91/POT"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "PR",
+    "name": "UM-CAM",
+    "title": "UM-CAM: Uncertainty-Weighted Multi-Resolution Class Activation Maps for Weakly-Supervised Segmentation",
+    "link": "https://doi.org/10.1016/j.patcog.2024.111204",
+    "code": "https://github.com/HiLab-git/UM-CAM"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "TMM",
+    "name": "UniA",
+    "title": "Tackling Ambiguity From Perspectives of Uncertainty Inference and Affinity Diversification for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TMM.2025.3613165",
+    "code": "https://github.com/zwyang6/UniA"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "ACM MM",
+    "name": "VLHP",
+    "title": "VLHP: Learning Discriminative Vision-Language Hybrid Prototypes for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1145/3746027.3754893",
+    "code": "https://github.com/fjy0105/VLHP"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "AAAI",
+    "name": "VPL",
+    "title": "Toward Modality Gap: Vision Prototype Learning for Weakly-Supervised Semantic Segmentation With CLIP",
+    "link": "https://doi.org/10.1609/aaai.v39i9.32976",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "IJCV",
+    "name": "WeakCLIP",
+    "title": "WeakCLIP: Adapting CLIP for Weakly-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1007/s11263-024-02224-2",
+    "code": "https://github.com/hustvl/WeakCLIP"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "TPAMI",
+    "name": "WeCLIP+",
+    "title": "Frozen CLIP-DINO: A Strong Backbone for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TPAMI.2025.3543191",
+    "code": "https://github.com/zbf1991/WeCLIP"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2026,
+    "venue": "TGRS",
+    "name": "ATSG",
+    "title": "ATSG: Adaptive Token Linking With Segment Anything Model Guidance for Weakly Supervised Remote Sensing Image Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TGRS.2026.3653675",
+    "code": "https://github.com/zhangyifan25/ATSG"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2026,
+    "venue": "TGRS",
+    "name": "CAMformer",
+    "title": "CAMformer: A Single-Stage CNN--Transformer Hybrid for Weakly Supervised Semantic Segmentation in Aerial Imagery",
+    "link": "https://doi.org/10.1109/TGRS.2026.3651514",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2026,
+    "venue": "TNNLS",
+    "name": "CLIP-GA",
+    "title": "CLIP Graph Adaptor: A Dual-Graph Adapted Visual--Language Model for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TNNLS.2026.3683363",
+    "code": "https://github.com/JIA-ZHANG666/CLIP-GA"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2026,
+    "venue": "PR",
+    "name": "DPL",
+    "title": "DPL: Dual-Prior Learning for Weakly-Supervised Semantic Segmentation in Driving Scenes",
+    "link": "https://doi.org/10.1016/j.patcog.2025.112090",
+    "code": "https://github.com/shijueganzhi/DPL"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2026,
+    "venue": "PR",
+    "name": "FProtoSeg",
+    "title": "FProtoSeg: Fine-Grained Prototype Alignment for Weakly Supervised Semantic Segmentation of Histopathology Images",
+    "link": "https://doi.org/10.1016/j.patcog.2026.113126",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2026,
+    "venue": "PR",
+    "name": "LayerCLIP",
+    "title": "LayerCLIP: A Fine-Grained Class Activation Map for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1016/j.patcog.2025.112452",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2026,
+    "venue": "ISPRS",
+    "name": "MPF-SAR",
+    "title": "Weakly Supervised Semantic Segmentation of SAR Images via Multi-Level Pseudo-Label Fusion",
+    "link": "https://doi.org/10.1016/j.isprsjprs.2025.11.020",
+    "code": "https://github.com/MIPCLab/MPF"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2026,
+    "venue": "TMM",
+    "name": "PLS",
+    "title": "A Part-Aware Learning Network for Weakly Supervised Semantic Segmentation",
+    "link": "https://ieeexplore.ieee.org/document/11472621",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2026,
+    "venue": "JSTARS",
+    "name": "SGCT-Net",
+    "title": "SGCT-Net: SAM-Guided Cross-Teaching Network for Weakly Supervised Semantic Segmentation for Generating High-Quality CAMs in High-Resolution Remote Sensing Imagery",
+    "link": "https://doi.org/10.1109/JSTARS.2026.3682076",
+    "code": "https://github.com/JiangYubo4399/SGCT-net"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2026,
+    "venue": "TCSVT",
+    "name": "VLD-PL",
+    "title": "Vision-Language-Driven Prompt Learning for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TCSVT.2026.3652185",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2026,
+    "venue": "TIP",
+    "name": "WeakTr",
+    "title": "WeakTr: Exploring Plain Vision Transformer for Weakly-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TIP.2026.3678362",
+    "code": "https://github.com/hustvl/WeakTr"
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2016,
+    "venue": "ECCV",
+    "name": null,
+    "title": "What's the Point: Semantic Segmentation With Point Supervision",
+    "link": "https://doi.org/10.1007/978-3-319-46478-7_34",
+    "code": null
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2018,
+    "venue": "ECCV",
+    "name": null,
+    "title": "On Regularized Losses for Weakly-Supervised CNN Segmentation",
+    "link": "https://doi.org/10.1007/978-3-030-01270-0_31",
+    "code": "https://github.com/meng-tang/rloss"
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2020,
+    "venue": "CVPR",
+    "name": null,
+    "title": "Weakly Supervised Semantic Point Cloud Segmentation: Towards 10x Fewer Labels",
+    "link": "https://doi.org/10.1109/CVPR42600.2020.01372",
+    "code": "https://github.com/alex-xun-xu/WeakSupPointCloudSeg"
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2022,
+    "venue": "TPAMI",
+    "name": "MiB",
+    "title": "Modeling the Background for Incremental and Weakly-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TPAMI.2021.3133954",
+    "code": "https://github.com/fcdl94/MiB"
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2021,
+    "venue": "ICCV",
+    "name": "SEMINAR",
+    "title": "Seminar Learning for Click-Level Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/ICCV48922.2021.00684",
+    "code": null
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2021,
+    "venue": "ICLR",
+    "name": "SPML",
+    "title": "Universal Weakly Supervised Segmentation by Pixel-to-Segment Contrastive Learning",
+    "link": "https://doi.org/10.48550/arXiv.2105.00957",
+    "code": "https://github.com/twke18/SPML"
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2022,
+    "venue": "ISPRS",
+    "name": "ALS-WS3D",
+    "title": "A New Weakly Supervised Approach for ALS Point Cloud Semantic Segmentation",
+    "link": "https://doi.org/10.1016/j.isprsjprs.2022.04.016",
+    "code": null
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2022,
+    "venue": "TIP",
+    "name": "DBFNet",
+    "title": "Deep Bilateral Filtering Network for Point-Supervised Semantic Segmentation in Remote Sensing Images",
+    "link": "https://doi.org/10.1109/TIP.2022.3222904",
+    "code": "https://github.com/Luffy03/DBFNet"
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2023,
+    "venue": "TPAMI",
+    "name": "Part-Evolution",
+    "title": "From Pose to Part: Weakly-Supervised Pose Evolution for Human Part Segmentation",
+    "link": "https://doi.org/10.1109/TPAMI.2022.3174529",
+    "code": null
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2022,
+    "venue": "CVPR",
+    "name": null,
+    "title": "Weakly Supervised Segmentation on Outdoor 4D Point Clouds With Temporal Matching and Spatial Graph Propagation",
+    "link": "https://doi.org/10.1109/CVPR52688.2022.01154",
+    "code": null
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2022,
+    "venue": "ECCV",
+    "name": "SQN",
+    "title": "SQN: Weakly-Supervised Semantic Segmentation of Large-Scale 3D Point Clouds",
+    "link": "https://doi.org/10.1007/978-3-031-19812-0_35",
+    "code": "https://github.com/QingyongHu/SQN"
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2022,
+    "venue": "CVPR",
+    "name": "TEL",
+    "title": "Tree Energy Loss: Towards Sparsely Annotated Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52688.2022.01640",
+    "code": "https://github.com/megvii-research/TreeEnergyLoss"
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2023,
+    "venue": "CVPR",
+    "name": "AGMM",
+    "title": "Sparsely Annotated Semantic Segmentation With Adaptive Gaussian Mixtures",
+    "link": "https://doi.org/10.1109/CVPR52729.2023.01483",
+    "code": "https://github.com/Luffy03/AGMM-SASS"
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2023,
+    "venue": "CVPR",
+    "name": "CVM",
+    "title": "Weakly Supervised Segmentation With Point Annotations for Histopathology Images via Contrast-Based Variational Model",
+    "link": "https://doi.org/10.1109/CVPR52729.2023.01500",
+    "code": "https://github.com/hrzhang1123/CVM_WS_Segmentation"
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2023,
+    "venue": "ACM MM",
+    "name": "DRQNet",
+    "title": "Exploring Dual Representations in Large-Scale Point Clouds: A Simple Weakly Supervised Semantic Segmentation Framework",
+    "link": "https://doi.org/10.1145/3581783.3612224",
+    "code": "https://github.com/ywuchina/TeamCode"
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2023,
+    "venue": "ISPRS",
+    "name": "OCOC",
+    "title": "One Class One Click: Quasi Scene-Level Weakly Supervised Point Cloud Semantic Segmentation With Active Learning",
+    "link": "https://doi.org/10.1016/j.isprsjprs.2023.09.002",
+    "code": "https://github.com/PuzoW/One-Class-One-Click"
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2024,
+    "venue": "TIP",
+    "name": "CM-WS3D",
+    "title": "Image Understands Point Cloud: Weakly Supervised 3D Semantic Segmentation via Association Learning",
+    "link": "https://doi.org/10.1109/TIP.2024.3372449",
+    "code": null
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2024,
+    "venue": "TGRS",
+    "name": "UCL",
+    "title": "Uncertainty-Guided Contrastive Learning for Weakly Supervised Point Cloud Segmentation",
+    "link": "https://doi.org/10.1109/TGRS.2024.3416219",
+    "code": null
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2026,
+    "venue": "TMM",
+    "name": "MSGL",
+    "title": "Multi-Granularity Superpoint Graph Learning for Weakly Supervised 3D Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TMM.2026.3654421",
+    "code": "https://github.com/fanyan0411/MSGL"
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2026,
+    "venue": "TGRS",
+    "name": "RSPoint-SAM",
+    "title": "RSPoint-SAM: A SAM-Driven Method With Cross-Level Feature Fusion for Point Supervised Segmentation",
+    "link": "https://doi.org/10.1109/TGRS.2026.3685134",
+    "code": "https://github.com/Yujia73/RSPoint-SAM"
+  },
+  {
+    "section": "3. Bounding-Box-Supervised Methods",
+    "year": 2015,
+    "venue": "ICCV",
+    "name": "BoxSup",
+    "title": "BoxSup: Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation",
+    "link": "https://doi.org/10.1109/ICCV.2015.191",
+    "code": null
+  },
+  {
+    "section": "3. Bounding-Box-Supervised Methods",
+    "year": 2015,
+    "venue": "ICCV",
+    "name": "WSSL",
+    "title": "Weakly- and Semi-Supervised Learning of a Deep Convolutional Network for Semantic Image Segmentation",
+    "link": "https://doi.org/10.1109/ICCV.2015.203",
+    "code": null
+  },
+  {
+    "section": "3. Bounding-Box-Supervised Methods",
+    "year": 2017,
+    "venue": "CVPR",
+    "name": "SDI",
+    "title": "Simple Does It: Weakly Supervised Instance and Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR.2017.181",
+    "code": null
+  },
+  {
+    "section": "3. Bounding-Box-Supervised Methods",
+    "year": 2018,
+    "venue": "ACM MM",
+    "name": "GraphNet",
+    "title": "GraphNet: Learning Image Pseudo Annotations for Weakly-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1145/3240508.3240542",
+    "code": null
+  },
+  {
+    "section": "3. Bounding-Box-Supervised Methods",
+    "year": 2019,
+    "venue": "CVPR",
+    "name": "BCM",
+    "title": "Box-Driven Class-Wise Region Masking and Filling Rate Guided Loss for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR.2019.00325",
+    "code": null
+  },
+  {
+    "section": "3. Bounding-Box-Supervised Methods",
+    "year": 2020,
+    "venue": "ECCV",
+    "name": "Box2Seg",
+    "title": "Box2seg: Attention weighted loss and discriminative feature learning for weakly supervised segmentation",
+    "link": "https://doi.org/10.1007/978-3-030-58583-9_18",
+    "code": "https://github.com/vivkul/Box2Seg"
+  },
+  {
+    "section": "3. Bounding-Box-Supervised Methods",
+    "year": 2021,
+    "venue": "CVPR",
+    "name": "BAP",
+    "title": "Background-Aware Pooling and Noise-Aware Loss for Weakly-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR46437.2021.00684",
+    "code": null
+  },
+  {
+    "section": "3. Bounding-Box-Supervised Methods",
+    "year": 2021,
+    "venue": "CVPR",
+    "name": "BBAM",
+    "title": "BBAM: Bounding Box Attribution Map for Weakly Supervised Semantic and Instance Segmentation",
+    "link": "https://doi.org/10.1109/CVPR46437.2021.00267",
+    "code": "https://github.com/jbeomlee93/BBAM"
+  },
+  {
+    "section": "3. Bounding-Box-Supervised Methods",
+    "year": 2022,
+    "venue": "TPAMI",
+    "name": "A2GNN",
+    "title": "Affinity Attention Graph Neural Network for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TPAMI.2021.3083269",
+    "code": "https://github.com/zbf1991/A2GNN"
+  },
+  {
+    "section": "3. Bounding-Box-Supervised Methods",
+    "year": 2022,
+    "venue": "TIP",
+    "name": "PIP",
+    "title": "Delving Deeper Into Pixel Prior for Box-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TIP.2022.3141878",
+    "code": "https://github.com/matq-hit/PIP"
+  },
+  {
+    "section": "3. Bounding-Box-Supervised Methods",
+    "year": 2023,
+    "venue": "TPAMI",
+    "name": "BCM",
+    "title": "Weakly Supervised Semantic Segmentation via Box-Driven Masking and Filling Rate Shifting",
+    "link": "https://doi.org/10.1109/TPAMI.2023.3301302",
+    "code": "https://github.com/developfeng/BCM"
+  },
+  {
+    "section": "3. Bounding-Box-Supervised Methods",
+    "year": 2023,
+    "venue": "MICCAI",
+    "name": "WeakPolyp",
+    "title": "WeakPolyp: You Only Look Bounding Box for Polyp Segmentation",
+    "link": "https://doi.org/10.1007/978-3-031-43898-1_72",
+    "code": "https://github.com/weijun-arc/WeakPolyp"
+  },
+  {
+    "section": "3. Bounding-Box-Supervised Methods",
+    "year": 2024,
+    "venue": "ECCV",
+    "name": "WPS-SAM",
+    "title": "WPS-SAM: Towards Weakly-Supervised Part Segmentation with Foundation Models",
+    "link": "https://doi.org/10.1007/978-3-031-72784-9_18",
+    "code": "https://github.com/xjwu1024/WPS-SAM"
+  },
+  {
+    "section": "3. Bounding-Box-Supervised Methods",
+    "year": 2026,
+    "venue": "TIP",
+    "name": null,
+    "title": "Box-Supervised 3D Instance Segmentation With Level Set Evolution and Cross-View Consistency",
+    "link": "https://doi.org/10.1109/TIP.2026.3684400",
+    "code": null
+  },
+  {
+    "section": "4. Scribble-Supervised Methods",
+    "year": 2016,
+    "venue": "CVPR",
+    "name": "ScribbleSup",
+    "title": "ScribbleSup: Scribble-Supervised Convolutional Networks for Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR.2016.344",
+    "code": null
+  },
+  {
+    "section": "4. Scribble-Supervised Methods",
+    "year": 2017,
+    "venue": "CVPR",
+    "name": null,
+    "title": "Learning Random-Walk Label Propagation for Weakly-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR.2017.315",
+    "code": null
+  },
+  {
+    "section": "4. Scribble-Supervised Methods",
+    "year": 2018,
+    "venue": "CVPR",
+    "name": "NormCut",
+    "title": "Normalized Cut Loss for Weakly-Supervised CNN Segmentation",
+    "link": "https://doi.org/10.1109/CVPR.2018.00195",
+    "code": null
+  },
+  {
+    "section": "4. Scribble-Supervised Methods",
+    "year": 2019,
+    "venue": "IJCAI",
+    "name": "BPG",
+    "title": "Boundary Perception Guidance: A Scribble-Supervised Semantic Segmentation Approach",
+    "link": "https://doi.org/10.24963/ijcai.2019/508",
+    "code": null
+  },
+  {
+    "section": "4. Scribble-Supervised Methods",
+    "year": 2019,
+    "venue": "CVPR",
+    "name": "ADM",
+    "title": "Beyond Gradient Descent for Regularized Segmentation Losses",
+    "link": "https://doi.org/10.1109/CVPR.2019.01043",
+    "code": "https://github.com/dmitrii-marin/adm-seg"
+  },
+  {
+    "section": "4. Scribble-Supervised Methods",
+    "year": 2021,
+    "venue": "ICCV",
+    "name": "PSI",
+    "title": "Scribble-Supervised Semantic Segmentation Inference",
+    "link": "https://doi.org/10.1109/ICCV48922.2021.01507",
+    "code": null
+  },
+  {
+    "section": "4. Scribble-Supervised Methods",
+    "year": 2021,
+    "venue": "ICCV",
+    "name": "URSS",
+    "title": "Scribble-Supervised Semantic Segmentation by Uncertainty Reduction on Neural Representation and Self-Supervision on Neural Eigenspace",
+    "link": "https://doi.org/10.1109/ICCV48922.2021.00732",
+    "code": "https://github.com/panzhiyi/URSS"
+  },
+  {
+    "section": "4. Scribble-Supervised Methods",
+    "year": 2023,
+    "venue": "TIP",
+    "name": "BLPSeg",
+    "title": "BLPSeg: Balance the Label Preference in Scribble-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TIP.2023.3301342",
+    "code": null
+  },
+  {
+    "section": "4. Scribble-Supervised Methods",
+    "year": 2024,
+    "venue": "TPAMI",
+    "name": "CC4S",
+    "title": "CC4S: Encouraging Certainty and Consistency in Scribble-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TPAMI.2024.3415387",
+    "code": "https://github.com/panzhiyi/CC4S"
+  },
+  {
+    "section": "4. Scribble-Supervised Methods",
+    "year": 2024,
+    "venue": "AAAI",
+    "name": "Class-Driven Scribble Promotion Network",
+    "title": "Scribble Hides Class: Promoting Scribble-Based Weakly-Supervised Semantic Segmentation With Its Class Label",
+    "link": "https://doi.org/10.1609/aaai.v38i7.28563",
+    "code": "https://github.com/Zxl19990529/Class-driven-Scribble-Promotion-Network"
+  },
+  {
+    "section": "4. Scribble-Supervised Methods",
+    "year": 2025,
+    "venue": "PR",
+    "name": "DFR",
+    "title": "Dynamic Feature Regularized Loss for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1016/j.patcog.2025.111540",
+    "code": null
+  },
+  {
+    "section": "4. Scribble-Supervised Methods",
+    "year": 2025,
+    "venue": "CVPR",
+    "name": null,
+    "title": "Soft Self-Labeling and Potts Relaxations for Weakly-Supervised Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52734.2025.01885",
+    "code": null
+  },
+  {
+    "section": "4. Scribble-Supervised Methods",
+    "year": 2026,
+    "venue": "ICASSP",
+    "name": "ProtoSAM",
+    "title": "ProtoSAM: Prototype-Augmented Prompt Learning for Scribble-Supervised Semantic Segmentation With SAM",
+    "link": "https://doi.org/10.1109/ICASSP55912.2026.11462658",
+    "code": null
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2022,
+    "venue": "TPAMI",
+    "name": "LIID",
+    "title": "Leveraging Instance-, Image- and Dataset-Level Information for Weakly Supervised Instance Segmentation",
+    "link": "https://doi.org/10.1109/TPAMI.2020.3023152",
+    "code": "https://github.com/yun-liu/LIID"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2023,
+    "venue": "TMM",
+    "name": "SJLT-Net",
+    "title": "Weakly Supervised Instance Segmentation by Exploring Entire Object Regions",
+    "link": "https://doi.org/10.1109/TMM.2021.3126430",
+    "code": null
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2022,
+    "venue": "PR",
+    "name": null,
+    "title": "Weakly Supervised Instance Segmentation via Category-Aware Centerness Learning With Localization Supervision",
+    "link": "https://doi.org/10.1016/j.patcog.2022.109165",
+    "code": null
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2026,
+    "venue": "JSTARS",
+    "name": "SALInst",
+    "title": "SALInst: Spatial Affinity Learning for Remote Sensing Instance Segmentation With Box Supervision",
+    "link": "https://doi.org/10.1109/JSTARS.2026.3682293",
+    "code": null
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2020,
+    "venue": "CVPR",
+    "name": "MPRM",
+    "title": "Multi-Path Region Mining for Weakly Supervised 3D Semantic Segmentation on Point Clouds",
+    "link": "https://doi.org/10.1109/CVPR42600.2020.00444",
+    "code": null
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2021,
+    "venue": "AAAI",
+    "name": null,
+    "title": "Weakly Supervised Semantic Segmentation for Large-Scale Point Cloud",
+    "link": "https://doi.org/10.1609/aaai.v35i4.16407",
+    "code": "https://github.com/Yachao-Zhang/WS3"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2022,
+    "venue": "ISPRS",
+    "name": "Subcloud-WS",
+    "title": "Weakly Supervised Semantic Segmentation of Airborne Laser Scanning Point Clouds",
+    "link": "https://doi.org/10.1016/j.isprsjprs.2022.03.001",
+    "code": "https://github.com/yaping222/Weak_ALS"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2024,
+    "venue": "PR",
+    "name": "CASC",
+    "title": "Class Agnostic and Specific Consistency Learning for Weakly-Supervised Point Cloud Semantic Segmentation",
+    "link": "https://doi.org/10.1016/j.patcog.2024.111067",
+    "code": "https://github.com/jasonwjw/CASC"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2024,
+    "venue": "IJCV",
+    "name": null,
+    "title": "Few Annotated Pixels and Point Cloud Based Weakly Supervised Semantic Segmentation of Driving Scenes",
+    "link": "https://doi.org/10.1007/s11263-024-02275-5",
+    "code": null
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2024,
+    "venue": "ECCV",
+    "name": "3DSS-VLG",
+    "title": "3D Weakly Supervised Semantic Segmentation With 2D Vision-Language Guidance",
+    "link": "https://doi.org/10.1007/978-3-031-73464-9_6",
+    "code": "https://github.com/xuxiaoxxxx/3DSS-VLG"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2024,
+    "venue": "JSTARS",
+    "name": null,
+    "title": "Weakly-Supervised Semantic Segmentation of ALS Point Clouds Based on Auxiliary Line and Plane Point Prediction",
+    "link": "https://doi.org/10.1109/JSTARS.2024.3469269",
+    "code": null
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2025,
+    "venue": "TNNLS",
+    "name": "Cross-Cloud Consistency",
+    "title": "Cross-Cloud Consistency for Weakly Supervised Point Cloud Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TNNLS.2025.3526164",
+    "code": "https://github.com/Yachao-Zhang/Cross-Cloud-Consistency"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2015,
+    "venue": "ICCV",
+    "name": "CCNN",
+    "title": "Constrained Convolutional Neural Networks for Weakly Supervised Segmentation",
+    "link": "https://doi.org/10.1109/ICCV.2015.209",
+    "code": null
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2016,
+    "venue": "CVPR",
+    "name": "CAM",
+    "title": "Learning deep features for discriminative localization",
+    "link": "https://doi.org/10.1109/CVPR.2016.319",
+    "code": "https://github.com/zhoubolei/CAM"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2016,
+    "venue": "ECCV",
+    "name": "SEC",
+    "title": "Seed, Expand and Constrain: Three Principles for Weakly-Supervised Image Segmentation",
+    "link": "https://doi.org/10.1007/978-3-319-46464-0_42",
+    "code": "https://github.com/akolesnikoff/SEC"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2019,
+    "venue": "ICCV",
+    "name": null,
+    "title": "Frame-to-Frame Aggregation of Active Regions in Web Videos for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/ICCV.2019.00691",
+    "code": null
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2020,
+    "venue": "CVPR",
+    "name": "I2CRC",
+    "title": "Learning Integral Objects with Intra-Class Discriminator for Weakly-Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR42600.2020.00434",
+    "code": "https://github.com/NUST-Machine-Intelligence-Laboratory/I2CRC"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2021,
+    "venue": "ICML",
+    "name": "CLIP",
+    "title": "Learning transferable visual models from natural language supervision",
+    "link": "https://doi.org/10.48550/arXiv.2103.00020",
+    "code": "https://github.com/openai/CLIP"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2021,
+    "venue": "ICCV",
+    "name": "DINO",
+    "title": "Emerging properties in self-supervised vision transformers",
+    "link": "https://doi.org/10.1109/ICCV48922.2021.00951",
+    "code": "https://github.com/facebookresearch/dino"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2021,
+    "venue": "TIP",
+    "name": null,
+    "title": "Joint Multisource Saliency and Exemplar Mechanism for Weakly Supervised Video Object Segmentation",
+    "link": "https://doi.org/10.1109/TIP.2021.3113166",
+    "code": null
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2023,
+    "venue": "ICCV",
+    "name": "SAM",
+    "title": "Segment anything",
+    "link": "https://doi.org/10.1109/ICCV51070.2023.00371",
+    "code": "https://github.com/facebookresearch/segment-anything"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2023,
+    "venue": "IJCV",
+    "name": "PntWSSS",
+    "title": "Toward Practical Weakly Supervised Semantic Segmentation via Point-Level Supervision",
+    "link": "https://doi.org/10.1007/s11263-023-01862-2",
+    "code": "https://github.com/js-fan/PntWSSS"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2024,
+    "venue": "CVPR",
+    "name": "DuPL",
+    "title": "DuPL: Dual Student With Trustworthy Progressive Learning for Robust Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/CVPR52733.2024.00340",
+    "code": "https://github.com/Wu0409/DuPL"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2024,
+    "venue": "IVC",
+    "name": "EVA-02",
+    "title": "Eva-02: A visual representation for neon genesis",
+    "link": "https://doi.org/10.1016/j.imavis.2024.105171",
+    "code": "https://github.com/baaivision/EVA/tree/master/EVA-02"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2026,
+    "venue": "TIP",
+    "name": "DiCLIP",
+    "title": "DiCLIP: Diffusion Model Enhances CLIP's Dense Knowledge for Weakly Supervised Semantic Segmentation",
+    "link": "https://doi.org/10.1109/TIP.2026.3692055",
+    "code": "https://github.com/zwyang6/DiCLIP"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2026,
+    "venue": "CVPR",
+    "name": "VDA",
+    "title": "Beyond Text: Visual Description Assembly by Probabilistic Model for CLIP-based Weakly Supervised Semantic Segmentation",
+    "link": "https://cvpr.thecvf.com/virtual/2026/poster/38789",
+    "code": "https://github.com/weakguy98/VDA"
+  },
+  {
+    "section": "6. Applications",
+    "year": 2016,
+    "venue": "CVPR",
+    "name": null,
+    "title": "The cityscapes dataset for semantic urban scene understanding",
+    "link": "https://doi.org/10.1109/CVPR.2016.350",
+    "code": null
+  },
+  {
+    "section": "6. Applications",
+    "year": 2021,
+    "venue": "PR",
+    "name": null,
+    "title": "Single Annotated Pixel Based Weakly Supervised Semantic Segmentation Under Driving Scenes",
+    "link": "https://doi.org/10.1016/j.patcog.2021.107979",
+    "code": null
+  },
+  {
+    "section": "6. Applications",
+    "year": 2012,
+    "venue": "ISPRS Benchmark",
+    "name": null,
+    "title": "ISPRS Potsdam Dataset Within the ISPRS Test Project on Urban Classification, 3D Building Reconstruction and Semantic Labeling",
+    "link": "https://www.isprs.org/education/benchmarks/UrbanSemLab/default.aspx",
+    "code": null
+  },
+  {
+    "section": "6. Applications",
+    "year": 2019,
+    "venue": "arXiv",
+    "name": null,
+    "title": "isaid: A large-scale dataset for instance segmentation in aerial images",
+    "link": "https://doi.org/10.48550/arXiv.1905.12886",
+    "code": null
+  },
+  {
+    "section": "6. Applications",
+    "year": 2023,
+    "venue": "ISPRS",
+    "name": "KE-WESUP",
+    "title": "Knowledge Evolution Learning: A Cost-Free Weakly Supervised Semantic Segmentation Framework for High-Resolution Land Cover Classification",
+    "link": "https://doi.org/10.1016/j.isprsjprs.2023.11.015",
+    "code": null
+  },
+  {
+    "section": "6. Applications",
+    "year": 2023,
+    "venue": "ISPRS",
+    "name": "WESUP-LCP",
+    "title": "A Novel Weakly Supervised Semantic Segmentation Framework to Improve the Resolution of Land Cover Product",
+    "link": "https://doi.org/10.1016/j.isprsjprs.2022.12.027",
+    "code": null
+  },
+  {
+    "section": "6. Applications",
+    "year": 2024,
+    "venue": "ISPRS",
+    "name": "Flood-WSSS",
+    "title": "An Efficient Urban Flood Mapping Framework Towards Disaster Response Driven by Weakly Supervised Semantic Segmentation With Decoupled Training Samples",
+    "link": "https://doi.org/10.1016/j.isprsjprs.2023.12.009",
+    "code": null
+  },
+  {
+    "section": "6. Applications",
+    "year": 2024,
+    "venue": "ISPRS",
+    "name": "StructLabX-Net",
+    "title": "A Cost-Effective and Robust Mapping Method for Diverse Crop Types Using Weakly Supervised Semantic Segmentation With Sparse Point Samples",
+    "link": "https://doi.org/10.1016/j.isprsjprs.2024.09.017",
+    "code": null
+  },
+  {
+    "section": "6. Applications",
+    "year": 2025,
+    "venue": "TMM",
+    "name": "ScatterNet",
+    "title": "Weakly Supervised LiDAR Semantic Segmentation via Scatter Image Annotation",
+    "link": "https://doi.org/10.1109/TMM.2025.3535350",
+    "code": null
+  },
+  {
+    "section": "6. Applications",
+    "year": 2026,
+    "venue": "PR",
+    "name": "ETF",
+    "title": "Expanding Then Fusing: Weakly-Supervised Remote Sensing Semantic Segmentation via Progressive Multi-Modal Fusion",
+    "link": "https://doi.org/10.1016/j.patcog.2026.113392",
+    "code": "https://github.com/GC-WSL/ETF"
+  },
+  {
+    "section": "6. Applications",
+    "year": 2022,
+    "venue": "TMI",
+    "name": "Uncertainty-WSL",
+    "title": "Deep Interpretable Classification and Weakly-Supervised Segmentation of Histology Images via Max-Min Uncertainty",
+    "link": "https://doi.org/10.1109/TMI.2021.3123461",
+    "code": "https://github.com/sbelharbi/deep-wsl-histo-min-max-uncertainty"
+  },
+  {
+    "section": "6. Applications",
+    "year": 2022,
+    "venue": "arXiv",
+    "name": null,
+    "title": "Wsss4luad: Grand challenge on weakly-supervised tissue semantic segmentation for lung adenocarcinoma",
+    "link": "https://doi.org/10.48550/arXiv.2204.06455",
+    "code": null
+  },
+  {
+    "section": "6. Applications",
+    "year": 2024,
+    "venue": "CVPR",
+    "name": "ToNNO",
+    "title": "ToNNO: Tomographic Reconstruction of a Neural Network's Output for Weakly Supervised Segmentation of 3D Medical Images",
+    "link": "https://doi.org/10.1109/CVPR52733.2024.01086",
+    "code": null
+  },
+  {
+    "section": "6. Applications",
+    "year": 2025,
+    "venue": "TMI",
+    "name": "FGI",
+    "title": "From Gaze to Insight: Bridging Human Visual Attention and Vision Language Model Explanation for Weakly-Supervised Medical Image Segmentation",
+    "link": "https://doi.org/10.1109/TMI.2025.3616598",
+    "code": "https://github.com/jingkunchen/FGI"
+  },
+  {
+    "section": "6. Applications",
+    "year": 2025,
+    "venue": "TMI",
+    "name": "UAM-NR",
+    "title": "Exploring Unbiased Activation Maps for Weakly Supervised Tissue Segmentation of Histopathological Images",
+    "link": "https://doi.org/10.1109/TMI.2025.3541115",
+    "code": null
+  },
+  {
+    "section": "6. Applications",
+    "year": 2026,
+    "venue": "TMI",
+    "name": "TICoA",
+    "title": "Text-Image Co-Alignment for Weakly Supervised Polyp Segmentation",
+    "link": "https://doi.org/10.1109/TMI.2026.3674592",
+    "code": null
+  },
+  {
+    "section": "6. Applications",
+    "year": 2026,
+    "venue": "TMI",
+    "name": "WaWeHis",
+    "title": "Wave-Aware Weakly Supervised Histopathological Tissue Segmentation With Cross-Scale Logits Distillation",
+    "link": "https://doi.org/10.1109/TMI.2025.3637119",
+    "code": "https://github.com/director87/WaWeHis"
+  },
+  {
+    "section": "6. Applications",
+    "year": 2023,
+    "venue": "TCSVT",
+    "name": "WSPS",
+    "title": "Weakly Supervised Pedestrian Segmentation for Person Re-Identification",
+    "link": "https://doi.org/10.1109/TCSVT.2022.3210476",
+    "code": null
+  }
+]
