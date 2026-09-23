@@ -106,8 +106,9 @@ def apply_override(e: dict, k: str) -> tuple[str, str, str, str, str]:
     ov = OVERRIDES.get(_norm_title(title), {})
     year = str(ov["year"]) if ov.get("year") else (e.get("year") or "-")
     venue = short_venue(ov.get("venue") or e.get("venue") or "")
-    if ov.get("name"):
-        name = ov["name"]
+    if ov:
+        # Spreadsheet writes 无 when there is no method name.
+        name = ov.get("name") or "N/A"
     else:
         name = name_map.get(k) or acronym_from_title(title) or author_short(e.get("author") or "") or k
     if ov:
