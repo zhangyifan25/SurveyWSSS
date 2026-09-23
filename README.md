@@ -406,16 +406,16 @@ Where weak labels matter most outside object-centric VOC/COCO.
 
 Representative datasets used in our survey (Table II of the paper).
 
-| Domain | Dataset | Classes | Samples | Image size | Supervision | Link |
-| ------ | ------- | ------- | ------- | ---------- | ----------- | ---- |
-| Natural images | **PASCAL VOC 2012** | 21 | 13,484 | Variable | Image, Point, Scribble, Box | [Link](http://host.robots.ox.ac.uk/pascal/VOC/) |
-| Natural images | **MS COCO 2014** | 81 | 122,504 | Variable | Image, Point, Box | [Link](https://cocodataset.org/) |
-| Natural images | **Cityscapes** | 19 | 5,000 | 2048×1024 | Image, Point, Scribble | [Link](https://www.cityscapes-dataset.com/) |
-| Remote sensing | **ISPRS Potsdam** | 6 | 38 tiles | 6000×6000 | Image, Point | [Link](https://www.isprs.org/education/benchmarks/UrbanSemLab/default.aspx) |
-| Remote sensing | **ISPRS Vaihingen** | 6 | 33 tiles | Variable | Image, Point, Scribble | [Link](https://www.isprs.org/education/benchmarks/UrbanSemLab/default.aspx) |
-| Remote sensing | **iSAID** | 16 | 2,806 | Variable | Image, Box | [Link](https://captain-whu.github.io/iSAID/) |
-| Medical images | **WSSS4LUAD** | 3 | 87 WSIs | Variable | Image | [Link](https://wsss4luad.grand-challenge.org/) |
-| Medical images | **BCSS-WSSS** | 5 | 31,826 | 224×224 | Image | [Link](https://bcsegmentation.grand-challenge.org/) |
-| Medical images | **Kvasir-SEG** | 2 | 1,000 | Variable | Box | [Link](https://datasets.simula.no/kvasir-seg/) |
-| 3D point clouds | **S3DIS** | 13 | 271 rooms | — | Sparse point, 3D Box | [Link](http://buildingparser.stanford.edu/dataset.html) |
-| 3D point clouds | **ScanNet** | 20 | 1,513 scans | — | Sparse point, 3D Box | [Link](http://www.scan-net.org/) |
+| Domain | Dataset | Classes | Samples | Image size | Link |
+| ------ | ------- | ------- | ------- | ---------- | ---- |
+| Natural images | **PASCAL VOC 2012** | 21 | 13,484 | Variable | [Link](http://host.robots.ox.ac.uk/pascal/VOC/) |
+| Natural images | **MS COCO 2014** | 81 | 122,504 | Variable | [Link](https://cocodataset.org/) |
+| Natural images | **Cityscapes** | 19 | 5,000 | 2048×1024 | [Link](https://www.cityscapes-dataset.com/) |
+| Remote sensing | **ISPRS Potsdam** | 6 | 38 tiles | 6000×6000 | [Link](https://www.isprs.org/education/benchmarks/UrbanSemLab/default.aspx) |
+| Remote sensing | **ISPRS Vaihingen** | 6 | 33 tiles | Variable | [Link](https://www.isprs.org/education/benchmarks/UrbanSemLab/default.aspx) |
+| Remote sensing | **iSAID** | 16 | 2,806 | Variable | [Link](https://captain-whu.github.io/iSAID/) |
+| Medical images | **WSSS4LUAD** | 3 | 87 WSIs | Variable | [Link](https://wsss4luad.grand-challenge.org/) |
+| Medical images | **BCSS-WSSS** | 5 | 31,826 | 224×224 | [Link](https://bcsegmentation.grand-challenge.org/) |
+| Medical images | **Kvasir-SEG** | 2 | 1,000 | Variable | [Link](https://datasets.simula.no/kvasir-seg/) |
+| 3D point clouds | **S3DIS** | 13 | 271 rooms | — | [Link](http://buildingparser.stanford.edu/dataset.html) |
+| 3D point clouds | **ScanNet** | 20 | 1,513 scans | — | [Link](http://www.scan-net.org/) |

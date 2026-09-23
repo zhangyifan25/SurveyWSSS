@@ -705,10 +705,10 @@ A("# 7. Datasets")
 A("")
 A("Representative datasets used in our survey (Table II of the paper).")
 A("")
-A("| Domain | Dataset | Classes | Samples | Image size | Supervision | Link |")
-A("| ------ | ------- | ------- | ------- | ---------- | ----------- | ---- |")
-for domain, name, ncls, nsamp, size, superv, link in DATASETS:
-    A(f"| {domain} | **{name}** | {ncls} | {nsamp} | {size} | {superv} | [Link]({link}) |")
+A("| Domain | Dataset | Classes | Samples | Image size | Link |")
+A("| ------ | ------- | ------- | ------- | ---------- | ---- |")
+for domain, name, ncls, nsamp, size, _superv, link in DATASETS:
+    A(f"| {domain} | **{name}** | {ncls} | {nsamp} | {size} | [Link]({link}) |")
 A("")
 
 readme_path = OUT / "README.md"
