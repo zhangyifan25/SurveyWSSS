@@ -1852,5 +1852,104 @@
     "title": "Weakly Supervised Pedestrian Segmentation for Person Re-Identification",
     "link": "https://doi.org/10.1109/TCSVT.2022.3210476",
     "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2017,
+    "venue": "CVPR",
+    "name": null,
+    "title": "Combining bottom-up, top-down, and smoothness cues for weakly supervised image segmentation",
+    "link": "https://ieeexplore.ieee.org/document/8100253",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2017,
+    "venue": "CVPR",
+    "name": "AE-PSL",
+    "title": "Object region mining with adversarial erasing: A simple classification to semantic segmentation approach",
+    "link": "https://ieeexplore.ieee.org/document/8100170",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2018,
+    "venue": "CVPR",
+    "name": "MCOF",
+    "title": "Weakly-Supervised Semantic Segmentation by Iteratively Mining Common Object Features",
+    "link": "https://wangxiang10.github.io/papers/CVPR18_XiangWang.pdf",
+    "code": "https://wangxiang10.github.io/"
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2025,
+    "venue": "CVPR",
+    "name": "MuP-VSS",
+    "title": "Multi-Label Prototype Visual Spatial Search for Weakly Supervised Semantic Segmentation",
+    "link": "https://ieeexplore.ieee.org/document/11092747",
+    "code": null
+  },
+  {
+    "section": "1. Image-Level Supervised Methods",
+    "year": 2026,
+    "venue": "CVPR",
+    "name": "CD-CLIP",
+    "title": "Leveraging Class Distributions in CLIP for Weakly Supervised Semantic Segmentation",
+    "link": "https://cvpr.thecvf.com/virtual/2026/poster/37194",
+    "code": null
+  },
+  {
+    "section": "2. Point-Supervised Methods",
+    "year": 2024,
+    "venue": "TGRS",
+    "name": "Pixel-Net",
+    "title": "Point-Based Weakly Supervised Deep Learning for Semantic Segmentation of Remote Sensing Images",
+    "link": "https://ieeexplore.ieee.org/document/10597372",
+    "code": null
+  },
+  {
+    "section": "4. Scribble-Supervised Methods",
+    "year": 2020,
+    "venue": "CVPR",
+    "name": null,
+    "title": "Weakly-supervised salient object detection via scribble annotations",
+    "link": "https://ieeexplore.ieee.org/document/9157788",
+    "code": "https://github.com/JingZhang617/Scribble_Saliency"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2017,
+    "venue": "CVPR",
+    "name": null,
+    "title": "Weakly Supervised Semantic Segmentation Using Web-Crawled Videos",
+    "link": "https://arxiv.org/abs/1701.00352",
+    "code": null
+  },
+  {
+    "section": "6. Applications",
+    "year": 2021,
+    "venue": "ICCV",
+    "name": null,
+    "title": "Weakly Supervised Segmentation of Small Buildings with Point Labels",
+    "link": "https://ieeexplore.ieee.org/document/9709909",
+    "code": null
+  },
+  {
+    "section": "6. Applications",
+    "year": 2021,
+    "venue": "TMI",
+    "name": null,
+    "title": "Weakly supervised cell segmentation by point annotation",
+    "link": "https://ieeexplore.ieee.org/document/9301335",
+    "code": null
+  },
+  {
+    "section": "6. Applications",
+    "year": 2021,
+    "venue": "IJCV",
+    "name": null,
+    "title": "A Comprehensive Analysis of Weakly-Supervised Semantic Segmentation in Different Image Domains",
+    "link": "https://link.springer.com/article/10.1007/s11263-020-01373-4",
+    "code": "https://github.com/lyndonchan/wsss-analysis"
   }
 ]

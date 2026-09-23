@@ -99,6 +99,12 @@ if _ov_path.exists():
             OVERRIDES[nt] = row
     print(f"loaded {len(OVERRIDES)} paper overrides from {_ov_path.name}")
 
+SKIP_TITLES = {
+    _norm_title("Weakly Supervised Semantic Segmentation of Satellite Images for Land Cover Mapping -- Challenges and Opportunities"),
+    _norm_title("Structured crowdsourcing enables convolutional segmentation of histology images"),
+    _norm_title("Kvasir-seg: A segmented polyp dataset"),
+}
+
 
 def apply_override(e: dict, k: str) -> tuple[str, str, str, str, str]:
     """Return year, venue, name, code, link after overlaying the checked spreadsheet."""
@@ -312,11 +318,11 @@ VENUE_MAP = [
     (r"Pattern Analysis and Machine Intelligence|Trans\. Pattern Anal\. Mach\. Intell", "TPAMI"),
     (r"Transactions on Image Processing|Trans\. Image Process", "TIP"),
     (r"Transactions on Medical Imaging|Trans\. Med\. Imag", "TMI"),
-    (r"Geoscience and Remote Sensing", "TGRS"),
+    (r"Geoscience and Remote Sensing|Trans\. Geosci\. Remote Sens|\bTGRS\b", "TGRS"),
     (r"Circuits and Systems for Video Technology", "TCSVT"),
     (r"Transactions on Multimedia", "TMM"),
     (r"ISPRS Journal", "ISPRS"),
-    (r"International Journal of Computer Vision", "IJCV"),
+    (r"International Journal of Computer Vision|Int\. J\. Comput\. Vis|\bIJCV\b", "IJCV"),
     (r"Computer Vision and Pattern Recognition|Conf\. Comput\. Vis\. Pattern Recognit|\bCVPR\b", "CVPR"),
     (r"International Conference on Computer Vision|Proc\. Int\. Conf\. Comput\. Vis|\bICCV\b", "ICCV"),
     (r"Computer Vision -- ECCV", "ECCV"),
@@ -428,6 +434,12 @@ for k in cited:
     cat = key_cat.get(k)
     if cat in groups:
         groups[cat].append(k)
+
+for cat in groups:
+    groups[cat] = [
+        k for k in groups[cat]
+        if _norm_title((bib.get(k) or {}).get("title") or k) not in SKIP_TITLES
+    ]
 
 for cat in groups:
     def sort_key(k: str, _cat=cat):
