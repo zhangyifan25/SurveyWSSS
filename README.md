@@ -26,7 +26,7 @@
 
 <p align="center"> <img src="figs/timeline.png" align="center" width="100%"> </p>
 
-**<p align="center"> Roadmap of Representative WSSS Methods (2016–2026) </p>**
+**<p align="center"> Roadmap of Representative WSSS Methods </p>**
 
 <p align="center"> <img src="figs/challenges.png" align="center" width="70%"> </p>
 
