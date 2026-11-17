@@ -2,21 +2,23 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](../../pulls)
 <br />
 <p align="center">
-  <h1 align="center">A Unified Survey of Weakly Supervised Semantic Segmentation</h1>
+  <h1 align="center">A Unified Survey of Weakly Supervised Semantic Segmentation: Supervision Forms, Methods, and Applications</h1>
   <p align="center">
-    <b>Supervision Forms, Methods, and Applications</b>
-    <br />
     <b>Submitted to IEEE TPAMI</b>
     <br />
     <strong>Yifan Zhang</strong>
     ·
     <strong>Haoying Zeng</strong>
     ·
-    <strong>Zhiguo Jiang</strong>
+    <strong>Haopeng Zhang</strong>
+    ·
+    <strong>Yunchao Wei</strong>
     ·
     <strong>Gemine Vivone</strong>
     ·
-    <strong>Haopeng Zhang</strong>
+    <strong>Zhiguo Jiang</strong>
+    ·
+    <strong>Yao Zhao</strong>
   </p>
   <p align="center">
     <a href='./'><img src='https://img.shields.io/badge/Survey-Project-blue?style=flat' alt='Project'></a>
@@ -24,19 +26,15 @@
   </p>
 </p>
 
-<p align="center"> <img src="figs/timeline.png" align="center" width="100%"> </p>
-
-**<p align="center"> Roadmap of Representative WSSS Methods </p>**
-
 <p align="center"> <img src="figs/challenges.png" align="center" width="70%"> </p>
 
-**<p align="center"> Fundamental Dilemmas in WSSS </p>**
+**<p align="center"> Four Recurring Failure Modes in WSSS </p>**
 
 This repository tracks and benchmarks weakly supervised semantic segmentation (WSSS) methods to supplement our survey:
 
 > **A Unified Survey of Weakly Supervised Semantic Segmentation: Supervision Forms, Methods, and Applications**
 >
-> Yifan Zhang, Haoying Zeng, Zhiguo Jiang, Gemine Vivone, Haopeng Zhang
+> Yifan Zhang, Haoying Zeng, Haopeng Zhang, Yunchao Wei, Gemine Vivone, Zhiguo Jiang, Yao Zhao
 >
 > *Submitted to IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).*
 
@@ -61,10 +59,6 @@ Over the past decade, WSSS has moved from heuristic CAM expansion and affinity p
 3. Curates **datasets / metrics** and reports quantitative & qualitative comparisons.
 4. Reviews **applications** in driving, remote sensing, medicine, and human parsing, and outlines future prospects.
 
-<p align="center"> <img src="figs/overview.png" align="center" width="100%"> </p>
-
-**<p align="center"> Survey Paper Structure </p>**
-
 <p align="center"> <img src="figs/pipeline.png" align="center" width="100%"> </p>
 
 **<p align="center"> Training Setups in WSSS (Orthogonal to Label Forms) </p>**
@@ -76,7 +70,7 @@ If you find our survey helpful, please consider citing (status: **submitted to I
 ```bibtex
 @article{zhang2026wssssurvey,
   title   = {A Unified Survey of Weakly Supervised Semantic Segmentation: Supervision Forms, Methods, and Applications},
-  author  = {Zhang, Yifan and Zeng, Haoying and Jiang, Zhiguo and Vivone, Gemine and Zhang, Haopeng},
+  author  = {Zhang, Yifan and Zeng, Haoying and Zhang, Haopeng and Wei, Yunchao and Vivone, Gemine and Jiang, Zhiguo and Zhao, Yao},
   year    = {2026}
 }
 ```
@@ -385,15 +379,22 @@ Where weak labels matter most outside object-centric VOC/COCO.
 
 | Year | Venue | Name | Paper Title / Link | Code |
 | ---- | ----- | ---- | ------------------ | ---- |
+| 2017 | ICCV | Grad-CAM | [**Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization**](https://doi.org/10.1109/ICCV.2017.74) | [Code](https://github.com/jacobgil/pytorch-grad-cam) |
+| 2020 | CVPR | SC-CAM | [**Weakly-Supervised Semantic Segmentation via Sub-Category Exploration**](https://doi.org/10.1109/CVPR42600.2020.00901) | [Code](https://github.com/Juliachang/SC-CAM) |
+| 2020 | CVPR | SEAM | [**Self-Supervised Equivariant Attention Mechanism for Weakly Supervised Semantic Segmentation**](https://doi.org/10.1109/CVPR42600.2020.01229) | [Code](https://github.com/YudeWang/SEAM) |
 | 2021 | TMI | N/A | [**Weakly supervised cell segmentation by point annotation**](https://ieeexplore.ieee.org/document/9301335) | N/A |
 | 2022 | arXiv | N/A | [**Wsss4luad: Grand challenge on weakly-supervised tissue semantic segmentation for lung adenocarcinoma**](https://doi.org/10.48550/arXiv.2204.06455) | N/A |
+| 2022 | MICCAI | OEEM | [**Online Easy Example Mining for Weakly-Supervised Gland Segmentation from Histology Images**](https://doi.org/10.1007/978-3-031-16440-8_55) | [Code](https://github.com/xmed-lab/OEEM) |
 | 2022 | TMI | Uncertainty-WSL | [**Deep Interpretable Classification and Weakly-Supervised Segmentation of Histology Images via Max-Min Uncertainty**](https://doi.org/10.1109/TMI.2021.3123461) | [Code](https://github.com/sbelharbi/deep-wsl-histo-min-max-uncertainty) |
+| 2022 | MedIA | WSSS-Tissue | [**Multi-Layer Pseudo-Supervision for Histopathology Tissue Semantic Segmentation Using Patch-Level Classification Labels**](https://doi.org/10.1016/j.media.2022.102487) | [Code](https://github.com/ChuHan89/WSSS-Tissue) |
+| 2023 | TMI | HAMIL | [**HAMIL: High-Resolution Activation Maps and Interleaved Learning for Weakly Supervised Segmentation of Histopathological Images**](https://doi.org/10.1109/TMI.2023.3269798) | [Code](https://github.com/HiLab-git/HAMIL) |
+| 2023 | AAAI | PistoSeg | [**Weakly-Supervised Semantic Segmentation for Histopathology Images Based on Dataset Synthesis and Feature Consistency Constraint**](https://doi.org/10.1609/aaai.v37i1.25136) | [Code](https://github.com/Vison307/PistoSeg) |
 | 2024 | CVPR | ToNNO | [**ToNNO: Tomographic Reconstruction of a Neural Network's Output for Weakly Supervised Segmentation of 3D Medical Images**](https://doi.org/10.1109/CVPR52733.2024.01086) | N/A |
 | 2025 | TMI | FGI | [**From Gaze to Insight: Bridging Human Visual Attention and Vision Language Model Explanation for Weakly-Supervised Medical Image Segmentation**](https://doi.org/10.1109/TMI.2025.3616598) | [Code](https://github.com/jingkunchen/FGI) |
+| 2025 | TMI | HisynSeg | [**HisynSeg: Weakly-Supervised Histopathological Image Segmentation via Image-Mixing Synthesis and Consistency Regularization**](https://doi.org/10.1109/TMI.2024.3520129) | [Code](https://github.com/Vison307/HisynSeg) |
 | 2025 | TMI | UAM-NR | [**Exploring Unbiased Activation Maps for Weakly Supervised Tissue Segmentation of Histopathological Images**](https://doi.org/10.1109/TMI.2025.3541115) | N/A |
 | 2026 | TMI | TICoA | [**Text-Image Co-Alignment for Weakly Supervised Polyp Segmentation**](https://doi.org/10.1109/TMI.2026.3674592) | N/A |
 | 2026 | TMI | WaWeHis | [**Wave-Aware Weakly Supervised Histopathological Tissue Segmentation With Cross-Scale Logits Distillation**](https://doi.org/10.1109/TMI.2025.3637119) | [Code](https://github.com/director87/WaWeHis) |
-
 
 ### 6.4 Human Parsing and Pedestrian Segmentation
 

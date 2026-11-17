@@ -278,10 +278,10 @@ markers = [
     ("5.1 Weakly Supervised Instance Segmentation", r"\\subsubsection\{Weakly Supervised Instance"),
     ("5.2 3D Point Clouds (Cross-Cutting)", r"\\subsubsection\{3D Point Clouds\}"),
     ("5.3 Video", r"\\subsubsection\{Video\}"),
-    ("6.1 Autonomous Driving", r"\\textit\{Autonomous driving"),
-    ("6.2 Remote Sensing and Earth Observation", r"\\textit\{Remote sensing"),
-    ("6.3 Medical Image Analysis", r"\\textit\{Medical image"),
-    ("6.4 Human Parsing and Pedestrian Segmentation", r"\\textit\{Human parsing"),
+    ("6.1 Autonomous Driving", r"\\subsubsection\{Autonomous Driving\}"),
+    ("6.2 Remote Sensing and Earth Observation", r"\\subsubsection\{Remote Sensing and Earth Observation\}"),
+    ("6.3 Medical Image Analysis", r"\\subsubsection\{Medical Image Analysis\}"),
+    ("6.4 Human Parsing and Pedestrian Segmentation", r"\\subsubsection\{Human Parsing and Pedestrian Segmentation\}"),
 ]
 
 pos_list = []
@@ -487,21 +487,23 @@ A('[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa856
 A('[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](../../pulls)')
 A("<br />")
 A('<p align="center">')
-A('  <h1 align="center">A Unified Survey of Weakly Supervised Semantic Segmentation</h1>')
+A('  <h1 align="center">A Unified Survey of Weakly Supervised Semantic Segmentation: Supervision Forms, Methods, and Applications</h1>')
 A('  <p align="center">')
-A("    <b>Supervision Forms, Methods, and Applications</b>")
-A("    <br />")
 A("    <b>Submitted to IEEE TPAMI</b>")
 A("    <br />")
 A("    <strong>Yifan Zhang</strong>")
 A("    ·")
 A("    <strong>Haoying Zeng</strong>")
 A("    ·")
-A("    <strong>Zhiguo Jiang</strong>")
+A("    <strong>Haopeng Zhang</strong>")
+A("    ·")
+A("    <strong>Yunchao Wei</strong>")
 A("    ·")
 A("    <strong>Gemine Vivone</strong>")
 A("    ·")
-A("    <strong>Haopeng Zhang</strong>")
+A("    <strong>Zhiguo Jiang</strong>")
+A("    ·")
+A("    <strong>Yao Zhao</strong>")
 A("  </p>")
 A('  <p align="center">')
 A("    <a href='./'><img src='https://img.shields.io/badge/Survey-Project-blue?style=flat' alt='Project'></a>")
@@ -509,19 +511,15 @@ A("    <a href='./'><img src='https://img.shields.io/badge/TPAMI-Submitted-orang
 A("  </p>")
 A("</p>")
 A("")
-A('<p align="center"> <img src="figs/timeline.png" align="center" width="100%"> </p>')
-A("")
-A('**<p align="center"> Roadmap of Representative WSSS Methods </p>**')
-A("")
 A('<p align="center"> <img src="figs/challenges.png" align="center" width="70%"> </p>')
 A("")
-A('**<p align="center"> Fundamental Dilemmas in WSSS </p>**')
+A('**<p align="center"> Four Recurring Failure Modes in WSSS </p>**')
 A("")
 A("This repository tracks and benchmarks weakly supervised semantic segmentation (WSSS) methods to supplement our survey:")
 A("")
 A("> **A Unified Survey of Weakly Supervised Semantic Segmentation: Supervision Forms, Methods, and Applications**")
 A(">")
-A("> Yifan Zhang, Haoying Zeng, Zhiguo Jiang, Gemine Vivone, Haopeng Zhang")
+A("> Yifan Zhang, Haoying Zeng, Haopeng Zhang, Yunchao Wei, Gemine Vivone, Zhiguo Jiang, Yao Zhao")
 A(">")
 A("> *Submitted to IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).*")
 A("")
@@ -546,10 +544,6 @@ A("2. Builds a **method taxonomy** primarily for 2D natural images, with extensi
 A("3. Curates **datasets / metrics** and reports quantitative & qualitative comparisons.")
 A("4. Reviews **applications** in driving, remote sensing, medicine, and human parsing, and outlines future prospects.")
 A("")
-A('<p align="center"> <img src="figs/overview.png" align="center" width="100%"> </p>')
-A("")
-A('**<p align="center"> Survey Paper Structure </p>**')
-A("")
 A('<p align="center"> <img src="figs/pipeline.png" align="center" width="100%"> </p>')
 A("")
 A('**<p align="center"> Training Setups in WSSS (Orthogonal to Label Forms) </p>**')
@@ -561,7 +555,7 @@ A("")
 A("```bibtex")
 A("@article{zhang2026wssssurvey,")
 A("  title   = {A Unified Survey of Weakly Supervised Semantic Segmentation: Supervision Forms, Methods, and Applications},")
-A("  author  = {Zhang, Yifan and Zeng, Haoying and Jiang, Zhiguo and Vivone, Gemine and Zhang, Haopeng},")
+A("  author  = {Zhang, Yifan and Zeng, Haoying and Zhang, Haopeng and Wei, Yunchao and Vivone, Gemine and Jiang, Zhiguo and Zhao, Yao},")
 A("  year    = {2026}")
 A("}")
 A("```")
