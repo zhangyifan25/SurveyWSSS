@@ -65,7 +65,7 @@ Over the past decade, WSSS has moved from heuristic CAM expansion and affinity p
 
 ## Citation
 
-If you find our survey helpful, please consider citing (status: **submitted to IEEE TPAMI**):
+If you find our survey helpful, please consider citing:
 
 ```bibtex
 @article{zhang2026wssssurvey,

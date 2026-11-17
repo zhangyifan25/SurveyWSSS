@@ -550,7 +550,7 @@ A('**<p align="center"> Training Setups in WSSS (Orthogonal to Label Forms) </p>
 A("")
 A("## Citation")
 A("")
-A("If you find our survey helpful, please consider citing (status: **submitted to IEEE TPAMI**):")
+A("If you find our survey helpful, please consider citing:")
 A("")
 A("```bibtex")
 A("@article{zhang2026wssssurvey,")
