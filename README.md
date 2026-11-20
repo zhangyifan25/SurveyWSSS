@@ -30,13 +30,7 @@
 
 **<p align="center"> Four Recurring Failure Modes in WSSS </p>**
 
-This repository tracks and benchmarks weakly supervised semantic segmentation (WSSS) methods to supplement our survey:
-
-> **A Unified Survey of Weakly Supervised Semantic Segmentation: Supervision Forms, Methods, and Applications**
->
-> Yifan Zhang, Haoying Zeng, Haopeng Zhang, Yunchao Wei, Gemine Vivone, Zhiguo Jiang, Yao Zhao
->
-> *Submitted to IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).*
+This repository tracks and benchmarks weakly supervised semantic segmentation (WSSS) methods to supplement our survey.
 
 **Please leave a <font color='orange'>STAR ⭐</font> if you find this project useful!**
 
