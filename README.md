@@ -321,12 +321,18 @@ Beyond static 2D semantic segmentation: instance segmentation, 3D clouds, and vi
 | ---- | ----- | ---- | ------------------ | ---- |
 | 2020 | CVPR | MPRM | [**Multi-Path Region Mining for Weakly Supervised 3D Semantic Segmentation on Point Clouds**](https://doi.org/10.1109/CVPR42600.2020.00444) | N/A |
 | 2021 | AAAI | N/A | [**Weakly Supervised Semantic Segmentation for Large-Scale Point Cloud**](https://doi.org/10.1609/aaai.v35i4.16407) | [Code](https://github.com/Yachao-Zhang/WS3) |
+| 2021 | CVPR | WyPR | [**3D Spatial Recognition Without Spatially Labeled 3D**](https://openaccess.thecvf.com/content/CVPR2021/html/Ren_3D_Spatial_Recognition_Without_Spatially_Labeled_3D_CVPR_2021_paper.html) | [Code](https://github.com/facebookresearch/WyPR) |
+| 2022 | CVPR | MIL-Trans | [**An MIL-Derived Transformer for Weakly Supervised Point Cloud Segmentation**](https://openaccess.thecvf.com/content/CVPR2022/html/Yang_An_MIL-Derived_Transformer_for_Weakly_Supervised_Point_Cloud_Segmentation_CVPR_2022_paper.html) | [Code](https://github.com/jimmy15923/wspss_mil_transformer) |
 | 2022 | ISPRS | Subcloud-WS | [**Weakly Supervised Semantic Segmentation of Airborne Laser Scanning Point Clouds**](https://doi.org/10.1016/j.isprsjprs.2022.03.001) | [Code](https://github.com/yaping222/Weak_ALS) |
+| 2023 | ICCV | MIT | [**2D-3D Interlaced Transformer for Point Cloud Segmentation With Scene-Level Supervision**](https://openaccess.thecvf.com/content/ICCV2023/html/Yang_2D-3D_Interlaced_Transformer_for_Point_Cloud_Segmentation_with_Scene-Level_Supervision_ICCV_2023_paper.html) | [Code](https://github.com/jimmy15923/mit) |
+| 2023 | arXiv | N/A | [**Weakly Supervised Point Cloud Segmentation via Conservative Propagation of Scene-Level Labels**](https://arxiv.org/abs/2312.06799) | N/A |
+| 2024 | AAAI | MMA | [**Multi-Modality Affinity Inference for Weakly Supervised 3D Semantic Segmentation**](https://doi.org/10.1609/aaai.v38i4.28106) | [Code](https://github.com/Sunny599/AAAI24-3DWSSS-MMA) |
 | 2024 | ECCV | 3DSS-VLG | [**3D Weakly Supervised Semantic Segmentation With 2D Vision-Language Guidance**](https://doi.org/10.1007/978-3-031-73464-9_6) | [Code](https://github.com/xuxiaoxxxx/3DSS-VLG) |
 | 2024 | PR | CASC | [**Class Agnostic and Specific Consistency Learning for Weakly-Supervised Point Cloud Semantic Segmentation**](https://doi.org/10.1016/j.patcog.2024.111067) | [Code](https://github.com/jasonwjw/CASC) |
 | 2024 | IJCV | N/A | [**Few Annotated Pixels and Point Cloud Based Weakly Supervised Semantic Segmentation of Driving Scenes**](https://doi.org/10.1007/s11263-024-02275-5) | N/A |
 | 2024 | JSTARS | N/A | [**Weakly-Supervised Semantic Segmentation of ALS Point Clouds Based on Auxiliary Line and Plane Point Prediction**](https://doi.org/10.1109/JSTARS.2024.3469269) | N/A |
 | 2025 | TNNLS | Cross-Cloud Consistency | [**Cross-Cloud Consistency for Weakly Supervised Point Cloud Semantic Segmentation**](https://doi.org/10.1109/TNNLS.2025.3526164) | [Code](https://github.com/Yachao-Zhang/Cross-Cloud-Consistency) |
+| 2025 | TPAMI | WSegPC | [**High-Quality Pseudo-Labeling for Point Cloud Segmentation With Scene-Level Annotation**](https://doi.org/10.1109/TPAMI.2025.3583071) | [Code](https://github.com/LHDuan/WSegPC) |
 
 
 ### 5.3 Video

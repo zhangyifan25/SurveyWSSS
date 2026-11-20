@@ -1513,12 +1513,66 @@
   },
   {
     "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2021,
+    "venue": "CVPR",
+    "name": "WyPR",
+    "title": "3D Spatial Recognition Without Spatially Labeled 3D",
+    "link": "https://openaccess.thecvf.com/content/CVPR2021/html/Ren_3D_Spatial_Recognition_Without_Spatially_Labeled_3D_CVPR_2021_paper.html",
+    "code": "https://github.com/facebookresearch/WyPR"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2022,
+    "venue": "CVPR",
+    "name": "MIL-Trans",
+    "title": "An MIL-Derived Transformer for Weakly Supervised Point Cloud Segmentation",
+    "link": "https://openaccess.thecvf.com/content/CVPR2022/html/Yang_An_MIL-Derived_Transformer_for_Weakly_Supervised_Point_Cloud_Segmentation_CVPR_2022_paper.html",
+    "code": "https://github.com/jimmy15923/wspss_mil_transformer"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
     "year": 2022,
     "venue": "ISPRS",
     "name": "Subcloud-WS",
     "title": "Weakly Supervised Semantic Segmentation of Airborne Laser Scanning Point Clouds",
     "link": "https://doi.org/10.1016/j.isprsjprs.2022.03.001",
     "code": "https://github.com/yaping222/Weak_ALS"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2023,
+    "venue": "ICCV",
+    "name": "MIT",
+    "title": "2D-3D Interlaced Transformer for Point Cloud Segmentation With Scene-Level Supervision",
+    "link": "https://openaccess.thecvf.com/content/ICCV2023/html/Yang_2D-3D_Interlaced_Transformer_for_Point_Cloud_Segmentation_with_Scene-Level_Supervision_ICCV_2023_paper.html",
+    "code": "https://github.com/jimmy15923/mit"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2023,
+    "venue": "arXiv",
+    "name": null,
+    "title": "Weakly Supervised Point Cloud Segmentation via Conservative Propagation of Scene-Level Labels",
+    "link": "https://arxiv.org/abs/2312.06799",
+    "code": null
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2024,
+    "venue": "AAAI",
+    "name": "MMA",
+    "title": "Multi-Modality Affinity Inference for Weakly Supervised 3D Semantic Segmentation",
+    "link": "https://doi.org/10.1609/aaai.v38i4.28106",
+    "code": "https://github.com/Sunny599/AAAI24-3DWSSS-MMA"
+  },
+  {
+    "section": "5. Cross-Cutting Themes and Extensions",
+    "year": 2025,
+    "venue": "TPAMI",
+    "name": "WSegPC",
+    "title": "High-Quality Pseudo-Labeling for Point Cloud Segmentation With Scene-Level Annotation",
+    "link": "https://doi.org/10.1109/TPAMI.2025.3583071",
+    "code": "https://github.com/LHDuan/WSegPC"
   },
   {
     "section": "5. Cross-Cutting Themes and Extensions",
