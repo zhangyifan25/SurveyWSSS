@@ -30,36 +30,11 @@
 
 **<p align="center"> Four Recurring Failure Modes in WSSS </p>**
 
-This repository tracks and benchmarks weakly supervised semantic segmentation (WSSS) methods to supplement our survey.
-
-**Please leave a <font color='orange'>STAR ⭐</font> if you find this project useful!**
-
-### 🔥 Highlight!!
-
-- A **unified taxonomy** of WSSS by supervision form: image-level, point, bounding box, and scribble.
-- Covers the full evolution from **CAM / affinity** heuristics, through **Vision Transformers**, to **foundation-model** priors (CLIP, DINO, SAM).
-- Summarizes **natural-image benchmarks** (PASCAL VOC, MS COCO) and **cross-domain** settings (remote sensing, medical, driving, 3D, video).
-- Provides **fair comparisons** on mIoU and computational footprint, plus open directions for deployment.
-- This repo lists papers appearing in our survey with year, venue, title/link, and code when available.
-
-# Introduction
-
-Semantic segmentation usually requires expensive pixel-level masks. **Weakly supervised semantic segmentation (WSSS)** learns dense predictions from cheaper labels such as image tags, points, boxes, or scribbles.
-
-Over the past decade, WSSS has moved from heuristic CAM expansion and affinity propagation, to Transformer token modeling, and now to foundation-model-empowered pipelines. This survey:
-
-1. Formulates a **unified mathematical view** of the four weak-label forms and multi-stage vs. single-stage training.
-2. Builds a **method taxonomy** primarily for 2D natural images, with extensions to instance, 3D, and video.
-3. Curates **datasets / metrics** and reports quantitative & qualitative comparisons.
-4. Reviews **applications** in driving, remote sensing, medicine, and human parsing, and outlines future prospects.
-
 <p align="center"> <img src="figs/pipeline.png" align="center" width="100%"> </p>
 
 **<p align="center"> Training Setups in WSSS (Orthogonal to Label Forms) </p>**
 
 ## Citation
-
-If you find our survey helpful, please consider citing:
 
 ```bibtex
 @article{zhang2026wssssurvey,
@@ -69,15 +44,8 @@ If you find our survey helpful, please consider citing:
 }
 ```
 
-The following tables list papers discussed in the survey. **Code links are filled when known; otherwise left as N/A**.
-
 # Summary of Contents
 
-This content follows the methodology and application taxonomy of our survey.
-
-- [Introduction](#introduction)
-  - [Citation](#citation)
-- [Summary of Contents](#summary-of-contents)
 - [1. Image-Level Supervised Methods](#1-image-level-supervised-methods)
 - [2. Point-Supervised Methods](#2-point-supervised-methods)
 - [3. Bounding-Box-Supervised Methods](#3-bounding-box-supervised-methods)
@@ -96,8 +64,6 @@ This content follows the methodology and application taxonomy of our survey.
 
 
 # 1. Image-Level Supervised Methods
-
-Image-level labels only indicate class presence. Methods invent spatial supervision via CAM expansion, affinity propagation, Transformer tokens, prototypes, background decoupling, foundation-model priors, and single-stage training.
 
 | Year | Venue | Name | Paper Title / Link | Code |
 | ---- | ----- | ---- | ------------------ | ---- |
@@ -227,8 +193,6 @@ Image-level labels only indicate class presence. Methods invent spatial supervis
 
 # 2. Point-Supervised Methods
 
-Sparse clicks provide a nonempty pixel set. Emphasis shifts to growing clicks and regularizing unlabeled regions (including 3D clouds).
-
 | Year | Venue | Name | Paper Title / Link | Code |
 | ---- | ----- | ---- | ------------------ | ---- |
 | 2016 | ECCV | What's the Point | [**What's the Point: Semantic Segmentation With Point Supervision**](https://doi.org/10.1007/978-3-319-46478-7_34) | N/A |
@@ -258,8 +222,6 @@ Sparse clicks provide a nonempty pixel set. Emphasis shifts to growing clicks an
 
 # 3. Bounding-Box-Supervised Methods
 
-Boxes give coarse extent but mixed interiors. Methods mine latent masks, impose box-consistent losses, or use boxes as foundation-model prompts.
-
 | Year | Venue | Name | Paper Title / Link | Code |
 | ---- | ----- | ---- | ------------------ | ---- |
 | 2015 | ICCV | BoxSup | [**BoxSup: Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation**](https://doi.org/10.1109/ICCV.2015.191) | N/A |
@@ -280,8 +242,6 @@ Boxes give coarse extent but mixed interiors. Methods mine latent masks, impose 
 
 # 4. Scribble-Supervised Methods
 
-Scribbles provide sparse strokes (and optional background). Pipelines combine graph-cut / random-walk propagation with regularized losses and foundation prompts.
-
 | Year | Venue | Name | Paper Title / Link | Code |
 | ---- | ----- | ---- | ------------------ | ---- |
 | 2016 | CVPR | ScribbleSup | [**ScribbleSup: Scribble-Supervised Convolutional Networks for Semantic Segmentation**](https://doi.org/10.1109/CVPR.2016.344) | N/A |
@@ -300,8 +260,6 @@ Scribbles provide sparse strokes (and optional background). Pipelines combine gr
 | 2026 | ICASSP | ProtoSAM | [**ProtoSAM: Prototype-Augmented Prompt Learning for Scribble-Supervised Semantic Segmentation With SAM**](https://doi.org/10.1109/ICASSP55912.2026.11462658) | N/A |
 
 # 5. Cross-Cutting Themes and Extensions
-
-Beyond static 2D semantic segmentation: instance segmentation, 3D clouds, and video.
 
 ### 5.1 Weakly Supervised Instance Segmentation
 
@@ -345,8 +303,6 @@ Beyond static 2D semantic segmentation: instance segmentation, 3D clouds, and vi
 | 2026 | TIP | PieVIS | [**Revisiting Pixel Erasure: A Simple Method for Weakly Supervised Video Instance Segmentation**](https://doi.org/10.1109/TIP.2026.3731974) | N/A |
 
 # 6. Applications
-
-Where weak labels matter most outside object-centric VOC/COCO.
 
 ### 6.1 Autonomous Driving
 
@@ -410,8 +366,6 @@ Where weak labels matter most outside object-centric VOC/COCO.
 | 2023 | TCSVT | WSPS | [**Weakly Supervised Pedestrian Segmentation for Person Re-Identification**](https://doi.org/10.1109/TCSVT.2022.3210476) | N/A |
 
 # 7. Datasets
-
-Representative datasets used in our survey (Table II of the paper).
 
 | Domain | Dataset | Classes | Samples | Image size | Link |
 | ------ | ------- | ------- | ------- | ---------- | ---- |

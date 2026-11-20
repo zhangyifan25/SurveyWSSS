@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 _meta.json
 _preview*.html
+UPLOAD.md
+_build_readme.py
+_paper_overrides.json
