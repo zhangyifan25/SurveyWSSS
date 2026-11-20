@@ -231,7 +231,7 @@ Sparse clicks provide a nonempty pixel set. Emphasis shifts to growing clicks an
 
 | Year | Venue | Name | Paper Title / Link | Code |
 | ---- | ----- | ---- | ------------------ | ---- |
-| 2016 | ECCV | N/A | [**What's the Point: Semantic Segmentation With Point Supervision**](https://doi.org/10.1007/978-3-319-46478-7_34) | N/A |
+| 2016 | ECCV | What's the Point | [**What's the Point: Semantic Segmentation With Point Supervision**](https://doi.org/10.1007/978-3-319-46478-7_34) | N/A |
 | 2018 | ECCV | N/A | [**On Regularized Losses for Weakly-Supervised CNN Segmentation**](https://doi.org/10.1007/978-3-030-01270-0_31) | [Code](https://github.com/meng-tang/rloss) |
 | 2020 | CVPR | N/A | [**Weakly Supervised Semantic Point Cloud Segmentation: Towards 10x Fewer Labels**](https://doi.org/10.1109/CVPR42600.2020.01372) | [Code](https://github.com/alex-xun-xu/WeakSupPointCloudSeg) |
 | 2021 | ICCV | SEMINAR | [**Seminar Learning for Click-Level Weakly Supervised Semantic Segmentation**](https://doi.org/10.1109/ICCV48922.2021.00684) | N/A |
@@ -248,6 +248,7 @@ Sparse clicks provide a nonempty pixel set. Emphasis shifts to growing clicks an
 | 2023 | ACM MM | DRQNet | [**Exploring Dual Representations in Large-Scale Point Clouds: A Simple Weakly Supervised Semantic Segmentation Framework**](https://doi.org/10.1145/3581783.3612224) | [Code](https://github.com/ywuchina/TeamCode) |
 | 2023 | ISPRS | OCOC | [**One Class One Click: Quasi Scene-Level Weakly Supervised Point Cloud Semantic Segmentation With Active Learning**](https://doi.org/10.1016/j.isprsjprs.2023.09.002) | [Code](https://github.com/PuzoW/One-Class-One-Click) |
 | 2023 | TPAMI | Part-Evolution | [**From Pose to Part: Weakly-Supervised Pose Evolution for Human Part Segmentation**](https://doi.org/10.1109/TPAMI.2022.3174529) | N/A |
+| 2024 | TMM | PCL | [**PCL: Point Contrast and Labeling for Weakly Supervised Point Cloud Semantic Segmentation**](https://doi.org/10.1109/TMM.2024.3383674) | N/A |
 | 2024 | TIP | CM-WS3D | [**Image Understands Point Cloud: Weakly Supervised 3D Semantic Segmentation via Association Learning**](https://doi.org/10.1109/TIP.2024.3372449) | N/A |
 | 2024 | TGRS | Pixel-Net | [**Point-Based Weakly Supervised Deep Learning for Semantic Segmentation of Remote Sensing Images**](https://ieeexplore.ieee.org/document/10597372) | N/A |
 | 2024 | TGRS | UCL | [**Uncertainty-Guided Contrastive Learning for Weakly Supervised Point Cloud Segmentation**](https://doi.org/10.1109/TGRS.2024.3416219) | N/A |
@@ -324,7 +325,7 @@ Beyond static 2D semantic segmentation: instance segmentation, 3D clouds, and vi
 | 2022 | CVPR | MIL-Trans | [**An MIL-Derived Transformer for Weakly Supervised Point Cloud Segmentation**](https://openaccess.thecvf.com/content/CVPR2022/html/Yang_An_MIL-Derived_Transformer_for_Weakly_Supervised_Point_Cloud_Segmentation_CVPR_2022_paper.html) | [Code](https://github.com/jimmy15923/wspss_mil_transformer) |
 | 2022 | ISPRS | Subcloud-WS | [**Weakly Supervised Semantic Segmentation of Airborne Laser Scanning Point Clouds**](https://doi.org/10.1016/j.isprsjprs.2022.03.001) | [Code](https://github.com/yaping222/Weak_ALS) |
 | 2023 | ICCV | MIT | [**2D-3D Interlaced Transformer for Point Cloud Segmentation With Scene-Level Supervision**](https://openaccess.thecvf.com/content/ICCV2023/html/Yang_2D-3D_Interlaced_Transformer_for_Point_Cloud_Segmentation_with_Scene-Level_Supervision_ICCV_2023_paper.html) | [Code](https://github.com/jimmy15923/mit) |
-| 2023 | arXiv | N/A | [**Weakly Supervised Point Cloud Segmentation via Conservative Propagation of Scene-Level Labels**](https://arxiv.org/abs/2312.06799) | N/A |
+| 2023 | arXiv | Xia et al. | [**Weakly Supervised Point Cloud Segmentation via Conservative Propagation of Scene-Level Labels**](https://arxiv.org/abs/2312.06799) | N/A |
 | 2024 | AAAI | MMA | [**Multi-Modality Affinity Inference for Weakly Supervised 3D Semantic Segmentation**](https://doi.org/10.1609/aaai.v38i4.28106) | [Code](https://github.com/Sunny599/AAAI24-3DWSSS-MMA) |
 | 2024 | ECCV | 3DSS-VLG | [**3D Weakly Supervised Semantic Segmentation With 2D Vision-Language Guidance**](https://doi.org/10.1007/978-3-031-73464-9_6) | [Code](https://github.com/xuxiaoxxxx/3DSS-VLG) |
 | 2024 | PR | CASC | [**Class Agnostic and Specific Consistency Learning for Weakly-Supervised Point Cloud Semantic Segmentation**](https://doi.org/10.1016/j.patcog.2024.111067) | [Code](https://github.com/jasonwjw/CASC) |
@@ -386,6 +387,7 @@ Where weak labels matter most outside object-centric VOC/COCO.
 
 | Year | Venue | Name | Paper Title / Link | Code |
 | ---- | ----- | ---- | ------------------ | ---- |
+| 2019 | ICCV | HistoSegNet | [**HistoSegNet: Semantic Segmentation of Histological Tissue Type in Whole Slide Images**](https://doi.org/10.1109/ICCV.2019.01076) | [Code](https://github.com/lyndonchan/hsn_v1) |
 | 2021 | TMI | N/A | [**Weakly Supervised Cell Segmentation by Point Annotation**](https://ieeexplore.ieee.org/document/9301335) | N/A |
 | 2022 | MICCAI | OEEM | [**Online Easy Example Mining for Weakly-Supervised Gland Segmentation from Histology Images**](https://doi.org/10.1007/978-3-031-16440-8_55) | [Code](https://github.com/xmed-lab/OEEM) |
 | 2022 | TMI | Uncertainty-WSL | [**Deep Interpretable Classification and Weakly-Supervised Segmentation of Histology Images via Max-Min Uncertainty**](https://doi.org/10.1109/TMI.2021.3123461) | [Code](https://github.com/sbelharbi/deep-wsl-histo-min-max-uncertainty) |
