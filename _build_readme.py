@@ -10,8 +10,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUT = Path(__file__).resolve().parent
 tex = (ROOT / "main.tex").read_text(encoding="utf-8")
-# Prefer references2.bib (used by main.tex); fall back to references.bib
-_bib_path = ROOT / "references2.bib"
+# Prefer reference.bib (main/sup); fall back to legacy names
+_bib_path = ROOT / "reference.bib"
+if not _bib_path.exists():
+    _bib_path = ROOT / "references2.bib"
 if not _bib_path.exists():
     _bib_path = ROOT / "references.bib"
 bib_text = _bib_path.read_text(encoding="utf-8")
@@ -278,11 +280,39 @@ markers = [
     ("5.1 Weakly Supervised Instance Segmentation", r"\\subsubsection\{Weakly Supervised Instance"),
     ("5.2 3D Point Clouds (Cross-Cutting)", r"\\subsubsection\{3D Point Clouds\}"),
     ("5.3 Video", r"\\subsubsection\{Video\}"),
+    # Absorb Evaluation cites so they do NOT leak into 5.3 Video
+    ("8. Evaluation Baselines and Others", r"\\section\{Evaluation and Analysis\}"),
     ("6.1 Autonomous Driving", r"\\subsubsection\{Autonomous Driving\}"),
     ("6.2 Remote Sensing and Earth Observation", r"\\subsubsection\{Remote Sensing and Earth Observation\}"),
     ("6.3 Medical Image Analysis", r"\\subsubsection\{Medical Image Analysis\}"),
     ("6.4 Human Parsing and Pedestrian Segmentation", r"\\subsubsection\{Human Parsing and Pedestrian Segmentation\}"),
 ]
+
+# Benchmarks / datasets / foundation models that must not appear as "methods" in apps
+NON_METHOD_KEYS = {
+    "rottensteiner2012isprs",
+    "swissphoto2012isprs",
+    "zamir2019isaid",
+    "cordts2016cityscapes",
+    "everingham2010pascal",
+    "lin2014microsoft",
+    "han2022wsss4luad",
+    "amgad2019structured",
+    "jha2019kvasir",
+    "bernard2018acdc",
+    "armeni20163d",
+    "dai2017scannet",
+    "behley2019semantickitti",
+    "CLIP",
+    "SAM",
+    "DINO",
+    "eva",
+    "Gradcam",
+    "CAM",
+    "tsne",
+    "DenseCRF",
+    "chan2021comprehensive",  # survey, not a human-parsing method
+}
 
 pos_list = []
 for cat, pat in markers:
@@ -294,11 +324,36 @@ outlook_end = tex.find("\\section{Conclusion}")
 meth_start = tex.find("\\section{Methodology}")
 
 key_cat: dict[str, str] = {}
+# Application / cross-cutting sections may share papers with taxonomy sections
+MULTI_CAT_PREFIXES = ("5.", "6.")
+multi_groups: dict[str, list[str]] = {}
+
 for i, (pos, cat) in enumerate(pos_list):
     end = pos_list[i + 1][0] if i + 1 < len(pos_list) else outlook_end
+    # Also cut at the next top-level \\section after this marker
+    msec = re.search(r"\\section\{", tex[pos + 1 : end])
+    if msec:
+        end = min(end, pos + 1 + msec.start())
+    keys_here = []
     for c in re.findall(r"\\cite\{([^}]+)\}", tex[pos:end]):
         for k in c.split(","):
-            key_cat.setdefault(k.strip(), cat)
+            k = k.strip()
+            if not k or k in NON_METHOD_KEYS:
+                continue
+            keys_here.append(k)
+            if not cat.startswith(MULTI_CAT_PREFIXES):
+                key_cat.setdefault(k, cat)
+    if cat.startswith(MULTI_CAT_PREFIXES):
+        # preserve order, unique
+        seen = set()
+        uniq = []
+        for k in keys_here:
+            if k not in seen:
+                seen.add(k)
+                uniq.append(k)
+        multi_groups[cat] = uniq
+        for k in uniq:
+            key_cat.setdefault(k, cat)
 
 for k in cited:
     if k in key_cat:
@@ -428,17 +483,43 @@ def md_escape(s: str) -> str:
 
 
 # Group papers (methods + applications only; skip prelim/eval dumps)
-order = [c for c, _ in markers]
+order = [c for c, _ in markers if not c.startswith("8.")]
 groups: dict[str, list[str]] = OrderedDict((c, []) for c in order)
 for k in cited:
     cat = key_cat.get(k)
     if cat in groups:
         groups[cat].append(k)
 
+# Cross-cutting / applications: use exclusive subsection cites (allows overlap with taxonomy)
+for cat, ks in multi_groups.items():
+    if cat in groups:
+        groups[cat] = list(ks)
+
+# Scene-level 3D methods from supplementary Table S4 (cited in sup, not always in main 5.2)
+EXTRA_KEYS = {
+    "5.2 3D Point Clouds (Cross-Cutting)": [
+        "ren2021wypr",
+        "yang2022mil",
+        "yang2023mit",
+        "xia2023",
+        "xu2024mma",
+        "duan2025wsegpc",
+    ],
+}
+for cat, ks in EXTRA_KEYS.items():
+    if cat not in groups:
+        continue
+    have = set(groups[cat])
+    for k in ks:
+        if k in bib and k not in have:
+            groups[cat].append(k)
+            have.add(k)
+
 for cat in groups:
     groups[cat] = [
         k for k in groups[cat]
-        if _norm_title((bib.get(k) or {}).get("title") or k) not in SKIP_TITLES
+        if k not in NON_METHOD_KEYS
+        and _norm_title((bib.get(k) or {}).get("title") or k) not in SKIP_TITLES
     ]
 
 for cat in groups:
