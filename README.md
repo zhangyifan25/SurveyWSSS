@@ -104,6 +104,7 @@ Image-level labels only indicate class presence. Methods invent spatial supervis
 | 2014 | TMM | N/A | [**Representative Discovery of Structure Cues for Weakly-Supervised Image Segmentation**](https://doi.org/10.1109/TMM.2013.2293424) | N/A |
 | 2017 | CVPR | AE-PSL | [**Object region mining with adversarial erasing: A simple classification to semantic segmentation approach**](https://ieeexplore.ieee.org/document/8100170) | N/A |
 | 2017 | CVPR | N/A | [**Combining bottom-up, top-down, and smoothness cues for weakly supervised image segmentation**](https://ieeexplore.ieee.org/document/8100253) | N/A |
+| 2017 | ICCV | H&S | [**Hide-and-Seek: Forcing a Network to Be Meticulous for Weakly-Supervised Object and Action Localization**](https://doi.org/10.1109/ICCV.2017.379) | [Code](https://github.com/kkanshul/Hide_and_Seek) |
 | 2017 | TPAMI | STC | [**STC: A Simple to Complex Framework for Weakly-Supervised Semantic Segmentation**](https://doi.org/10.1109/TPAMI.2016.2636150) | N/A |
 | 2018 | CVPR | AffinityNet | [**Learning Pixel-Level Semantic Affinity With Image-Level Supervision for Weakly Supervised Semantic Segmentation**](https://doi.org/10.1109/CVPR.2018.00523) | N/A |
 | 2018 | CVPR | DSRG | [**Weakly-Supervised Semantic Segmentation Network With Deep Seeded Region Growing**](https://doi.org/10.1109/CVPR.2018.00733) | [Code](https://github.com/speedinghzl/DSRG) |
@@ -209,6 +210,7 @@ Image-level labels only indicate class presence. Methods invent spatial supervis
 | 2025 | JSTARS | Water-matching CAM | [**Water-Matching CAM: A Novel Class Activation Map for Weakly-Supervised Semantic Segmentation of Water in SAR Images**](https://doi.org/10.1109/JSTARS.2024.3520361) | N/A |
 | 2025 | IJCV | WeakCLIP | [**WeakCLIP: Adapting CLIP for Weakly-Supervised Semantic Segmentation**](https://doi.org/10.1007/s11263-024-02224-2) | [Code](https://github.com/hustvl/WeakCLIP) |
 | 2025 | TPAMI | WeCLIP+ | [**Frozen CLIP-DINO: A Strong Backbone for Weakly Supervised Semantic Segmentation**](https://doi.org/10.1109/TPAMI.2025.3543191) | [Code](https://github.com/zbf1991/WeCLIP) |
+| 2026 | TIP | DiCLIP | [**DiCLIP: Diffusion Model Enhances CLIP's Dense Knowledge for Weakly Supervised Semantic Segmentation**](https://doi.org/10.1109/TIP.2026.3692055) | [Code](https://github.com/zwyang6/DiCLIP) |
 | 2026 | TGRS | ATSG | [**ATSG: Adaptive Token Linking With Segment Anything Model Guidance for Weakly Supervised Remote Sensing Image Semantic Segmentation**](https://doi.org/10.1109/TGRS.2026.3653675) | [Code](https://github.com/zhangyifan25/ATSG) |
 | 2026 | TGRS | CAMformer | [**CAMformer: A Single-Stage CNN--Transformer Hybrid for Weakly Supervised Semantic Segmentation in Aerial Imagery**](https://doi.org/10.1109/TGRS.2026.3651514) | N/A |
 | 2026 | CVPR | CD-CLIP | [**Leveraging Class Distributions in CLIP for Weakly Supervised Semantic Segmentation**](https://cvpr.thecvf.com/virtual/2026/poster/37194) | N/A |
@@ -238,6 +240,7 @@ Sparse clicks provide a nonempty pixel set. Emphasis shifts to growing clicks an
 | 2022 | TIP | DBFNet | [**Deep Bilateral Filtering Network for Point-Supervised Semantic Segmentation in Remote Sensing Images**](https://doi.org/10.1109/TIP.2022.3222904) | [Code](https://github.com/Luffy03/DBFNet) |
 | 2022 | TPAMI | MiB | [**Modeling the Background for Incremental and Weakly-Supervised Semantic Segmentation**](https://doi.org/10.1109/TPAMI.2021.3133954) | [Code](https://github.com/fcdl94/MiB) |
 | 2022 | CVPR | N/A | [**Weakly Supervised Segmentation on Outdoor 4D Point Clouds With Temporal Matching and Spatial Graph Propagation**](https://doi.org/10.1109/CVPR52688.2022.01154) | N/A |
+| 2021 | CVPR | One Thing One Click | [**One Thing One Click: A Self-Training Approach for Weakly Supervised 3D Semantic Segmentation**](https://openaccess.thecvf.com/content/CVPR2021/html/Liu_One_Thing_One_Click_A_Self-Training_Approach_for_Weakly_Supervised_CVPR_2021_paper.html) | [Code](https://github.com/liuzhengzhe/One-Thing-One-Click) |
 | 2022 | ECCV | SQN | [**SQN: Weakly-Supervised Semantic Segmentation of Large-Scale 3D Point Clouds**](https://doi.org/10.1007/978-3-031-19812-0_35) | [Code](https://github.com/QingyongHu/SQN) |
 | 2022 | CVPR | TEL | [**Tree Energy Loss: Towards Sparsely Annotated Semantic Segmentation**](https://doi.org/10.1109/CVPR52688.2022.01640) | [Code](https://github.com/megvii-research/TreeEnergyLoss) |
 | 2023 | CVPR | AGMM | [**Sparsely Annotated Semantic Segmentation With Adaptive Gaussian Mixtures**](https://doi.org/10.1109/CVPR52729.2023.01483) | [Code](https://github.com/Luffy03/AGMM-SASS) |
@@ -264,11 +267,11 @@ Boxes give coarse extent but mixed interiors. Methods mine latent masks, impose 
 | 2018 | ACM MM | GraphNet | [**GraphNet: Learning Image Pseudo Annotations for Weakly-Supervised Semantic Segmentation**](https://doi.org/10.1145/3240508.3240542) | N/A |
 | 2019 | CVPR | BCM | [**Box-Driven Class-Wise Region Masking and Filling Rate Guided Loss for Weakly Supervised Semantic Segmentation**](https://doi.org/10.1109/CVPR.2019.00325) | N/A |
 | 2020 | ECCV | Box2Seg | [**Box2seg: Attention weighted loss and discriminative feature learning for weakly supervised segmentation**](https://doi.org/10.1007/978-3-030-58583-9_18) | [Code](https://github.com/vivkul/Box2Seg) |
-| 2021 | CVPR | BAP | [**Background-Aware Pooling and Noise-Aware Loss for Weakly-Supervised Semantic Segmentation**](https://doi.org/10.1109/CVPR46437.2021.00684) | N/A |
+| 2021 | CVPR | BANA | [**Background-Aware Pooling and Noise-Aware Loss for Weakly-Supervised Semantic Segmentation**](https://doi.org/10.1109/CVPR46437.2021.00684) | [Code](https://github.com/cvlab-yonsei/BANA) |
 | 2021 | CVPR | BBAM | [**BBAM: Bounding Box Attribution Map for Weakly Supervised Semantic and Instance Segmentation**](https://doi.org/10.1109/CVPR46437.2021.00267) | [Code](https://github.com/jbeomlee93/BBAM) |
 | 2022 | TPAMI | A2GNN | [**Affinity Attention Graph Neural Network for Weakly Supervised Semantic Segmentation**](https://doi.org/10.1109/TPAMI.2021.3083269) | [Code](https://github.com/zbf1991/A2GNN) |
 | 2022 | TIP | PIP | [**Delving Deeper Into Pixel Prior for Box-Supervised Semantic Segmentation**](https://doi.org/10.1109/TIP.2022.3141878) | [Code](https://github.com/matq-hit/PIP) |
-| 2023 | TPAMI | BCM | [**Weakly Supervised Semantic Segmentation via Box-Driven Masking and Filling Rate Shifting**](https://doi.org/10.1109/TPAMI.2023.3301302) | [Code](https://github.com/developfeng/BCM) |
+| 2023 | TPAMI | BCM+ | [**Weakly Supervised Semantic Segmentation via Box-Driven Masking and Filling Rate Shifting**](https://doi.org/10.1109/TPAMI.2023.3301302) | [Code](https://github.com/developfeng/BCM) |
 | 2023 | MICCAI | WeakPolyp | [**WeakPolyp: You Only Look Bounding Box for Polyp Segmentation**](https://doi.org/10.1007/978-3-031-43898-1_72) | [Code](https://github.com/weijun-arc/WeakPolyp) |
 | 2024 | ECCV | WPS-SAM | [**WPS-SAM: Towards Weakly-Supervised Part Segmentation with Foundation Models**](https://doi.org/10.1007/978-3-031-72784-9_18) | [Code](https://github.com/xjwu1024/WPS-SAM) |
 | 2026 | TIP | N/A | [**Box-Supervised 3D Instance Segmentation With Level Set Evolution and Cross-View Consistency**](https://doi.org/10.1109/TIP.2026.3684400) | N/A |
@@ -281,7 +284,7 @@ Scribbles provide sparse strokes (and optional background). Pipelines combine gr
 | Year | Venue | Name | Paper Title / Link | Code |
 | ---- | ----- | ---- | ------------------ | ---- |
 | 2016 | CVPR | ScribbleSup | [**ScribbleSup: Scribble-Supervised Convolutional Networks for Semantic Segmentation**](https://doi.org/10.1109/CVPR.2016.344) | N/A |
-| 2017 | CVPR | N/A | [**Learning Random-Walk Label Propagation for Weakly-Supervised Semantic Segmentation**](https://doi.org/10.1109/CVPR.2017.315) | N/A |
+| 2017 | CVPR | LRW | [**Learning Random-Walk Label Propagation for Weakly-Supervised Semantic Segmentation**](https://doi.org/10.1109/CVPR.2017.315) | N/A |
 | 2018 | CVPR | NormCut | [**Normalized Cut Loss for Weakly-Supervised CNN Segmentation**](https://doi.org/10.1109/CVPR.2018.00195) | N/A |
 | 2019 | CVPR | ADM | [**Beyond Gradient Descent for Regularized Segmentation Losses**](https://doi.org/10.1109/CVPR.2019.01043) | [Code](https://github.com/dmitrii-marin/adm-seg) |
 | 2019 | IJCAI | BPG | [**Boundary Perception Guidance: A Scribble-Supervised Semantic Segmentation Approach**](https://doi.org/10.24963/ijcai.2019/508) | N/A |
@@ -292,7 +295,7 @@ Scribbles provide sparse strokes (and optional background). Pipelines combine gr
 | 2024 | TPAMI | CC4S | [**CC4S: Encouraging Certainty and Consistency in Scribble-Supervised Semantic Segmentation**](https://doi.org/10.1109/TPAMI.2024.3415387) | [Code](https://github.com/panzhiyi/CC4S) |
 | 2024 | AAAI | Class-Driven Scribble Promotion Network | [**Scribble Hides Class: Promoting Scribble-Based Weakly-Supervised Semantic Segmentation With Its Class Label**](https://doi.org/10.1609/aaai.v38i7.28563) | [Code](https://github.com/Zxl19990529/Class-driven-Scribble-Promotion-Network) |
 | 2025 | PR | DFR | [**Dynamic Feature Regularized Loss for Weakly Supervised Semantic Segmentation**](https://doi.org/10.1016/j.patcog.2025.111540) | N/A |
-| 2025 | CVPR | N/A | [**Soft Self-Labeling and Potts Relaxations for Weakly-Supervised Segmentation**](https://doi.org/10.1109/CVPR52734.2025.01885) | N/A |
+| 2025 | CVPR | SSP | [**Soft Self-Labeling and Potts Relaxations for Weakly-Supervised Segmentation**](https://doi.org/10.1109/CVPR52734.2025.01885) | N/A |
 | 2026 | ICASSP | ProtoSAM | [**ProtoSAM: Prototype-Augmented Prompt Learning for Scribble-Supervised Semantic Segmentation With SAM**](https://doi.org/10.1109/ICASSP55912.2026.11462658) | N/A |
 
 # 5. Cross-Cutting Themes and Extensions
@@ -390,6 +393,7 @@ Where weak labels matter most outside object-centric VOC/COCO.
 | 2023 | TMI | HAMIL | [**HAMIL: High-Resolution Activation Maps and Interleaved Learning for Weakly Supervised Segmentation of Histopathological Images**](https://doi.org/10.1109/TMI.2023.3269798) | [Code](https://github.com/HiLab-git/HAMIL) |
 | 2023 | AAAI | PistoSeg | [**Weakly-Supervised Semantic Segmentation for Histopathology Images Based on Dataset Synthesis and Feature Consistency Constraint**](https://doi.org/10.1609/aaai.v37i1.25136) | [Code](https://github.com/Vison307/PistoSeg) |
 | 2024 | CVPR | ToNNO | [**ToNNO: Tomographic Reconstruction of a Neural Network's Output for Weakly Supervised Segmentation of 3D Medical Images**](https://doi.org/10.1109/CVPR52733.2024.01086) | N/A |
+| 2025 | TCSVT | PNL | [**A Point-Neighborhood Learning Framework for Nasal Endoscopic Image Segmentation**](https://doi.org/10.1109/TCSVT.2025.3578862) | [Code](https://github.com/ParryJay/PNL) |
 | 2025 | TMI | FGI | [**From Gaze to Insight: Bridging Human Visual Attention and Vision Language Model Explanation for Weakly-Supervised Medical Image Segmentation**](https://doi.org/10.1109/TMI.2025.3616598) | [Code](https://github.com/jingkunchen/FGI) |
 | 2025 | TMI | HisynSeg | [**HisynSeg: Weakly-Supervised Histopathological Image Segmentation via Image-Mixing Synthesis and Consistency Regularization**](https://doi.org/10.1109/TMI.2024.3520129) | [Code](https://github.com/Vison307/HisynSeg) |
 | 2025 | TMI | UAM-NR | [**Exploring Unbiased Activation Maps for Weakly Supervised Tissue Segmentation of Histopathological Images**](https://doi.org/10.1109/TMI.2025.3541115) | N/A |
