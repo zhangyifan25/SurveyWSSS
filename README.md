@@ -366,10 +366,16 @@ Where weak labels matter most outside object-centric VOC/COCO.
 | 2023 | TGRS | OME | [**One Model Is Enough: Toward Multiclass Weakly Supervised Remote Sensing Image Semantic Segmentation**](https://doi.org/10.1109/TGRS.2023.3290242) | [Code](https://github.com/NJU-LHRS/OME) |
 | 2023 | ISPRS | WESUP-LCP | [**A Novel Weakly Supervised Semantic Segmentation Framework to Improve the Resolution of Land Cover Product**](https://doi.org/10.1016/j.isprsjprs.2022.12.027) | N/A |
 | 2024 | TGRS | CTFA | [**Contrastive Tokens and Label Activation for Remote Sensing Weakly Supervised Semantic Segmentation**](https://doi.org/10.1109/TGRS.2024.3385747) | [Code](https://github.com/ZaiyiHu/CTFA) |
+| 2024 | TGRS | FlipCAM | [**FlipCAM: A Feature-Level Flipping Augmentation Method for Weakly Supervised Building Extraction From High-Resolution Remote Sensing Imagery**](https://doi.org/10.1109/TGRS.2024.3360276) | [Code](https://github.com/NJU-LHRS/FlipCAM-master) |
 | 2024 | TGRS | Pixel-Net | [**Point-Based Weakly Supervised Deep Learning for Semantic Segmentation of Remote Sensing Images**](https://ieeexplore.ieee.org/document/10597372) | N/A |
 | 2024 | ISPRS | Flood-WSSS | [**An Efficient Urban Flood Mapping Framework Towards Disaster Response Driven by Weakly Supervised Semantic Segmentation With Decoupled Training Samples**](https://doi.org/10.1016/j.isprsjprs.2023.12.009) | N/A |
+| 2025 | TGRS | SparseFormer | [**SparseFormer: A Credible Dual-CNN Expert-Guided Transformer for Remote Sensing Image Segmentation With Sparse Point Annotation**](https://doi.org/10.1109/TGRS.2024.3523537) | [Code](https://github.com/Yujia73/SparseFormer) |
 | 2025 | JSTARS | Water-matching CAM | [**Water-Matching CAM: A Novel Class Activation Map for Weakly-Supervised Semantic Segmentation of Water in SAR Images**](https://doi.org/10.1109/JSTARS.2024.3520361) | N/A |
 | 2026 | TGRS | ATSG | [**ATSG: Adaptive Token Linking With Segment Anything Model Guidance for Weakly Supervised Remote Sensing Image Semantic Segmentation**](https://doi.org/10.1109/TGRS.2026.3653675) | [Code](https://github.com/zhangyifan25/ATSG) |
+| 2026 | TGRS | CAMformer | [**CAMformer: A Single-Stage CNN--Transformer Hybrid for Weakly Supervised Semantic Segmentation in Aerial Imagery**](https://doi.org/10.1109/TGRS.2026.3651514) | N/A |
+| 2026 | TGRS | GNATL | [**Global and Neighbor-Aware Token Learning for Weakly Supervised Remote Sensing Image Semantic Segmentation**](https://doi.org/10.1109/TGRS.2026.3724609) | N/A |
+| 2026 | TGRS | RSPoint-SAM | [**RSPoint-SAM: A SAM-Driven Method With Cross-Level Feature Fusion for Point Supervised Segmentation**](https://doi.org/10.1109/TGRS.2026.3685134) | [Code](https://github.com/Yujia73/RSPoint-SAM) |
+| 2026 | JSTARS | SGCT-Net | [**SGCT-Net: SAM-Guided Cross-Teaching Network for Weakly Supervised Semantic Segmentation for Generating High-Quality CAMs in High-Resolution Remote Sensing Imagery**](https://doi.org/10.1109/JSTARS.2026.3682076) | [Code](https://github.com/JiangYubo4399/SGCT-net) |
 | 2026 | ISPRS | MPF-SAR | [**Weakly Supervised Semantic Segmentation of SAR Images via Multi-Level Pseudo-Label Fusion**](https://doi.org/10.1016/j.isprsjprs.2025.11.020) | [Code](https://github.com/MIPCLab/MPF) |
 
 
